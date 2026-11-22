@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="SSIT Consulting">
+  <defs>
+    <linearGradient id="ssit-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1D4ED8"/>
+      <stop offset="100%" stop-color="#0F2557"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="52" fill="url(#ssit-bg)"/>
+  <circle cx="128" cy="128" r="98" fill="#FFFFFF" fill-opacity="0.06" stroke="#93C5FD" stroke-opacity="0.45" stroke-width="2.75"/>
+  <g transform="translate(128 128) scale(1.38)">
+    <path d="M 44.50 -2.00 L 44.50 -25.75 L 0.00 -51.51 L -44.50 -25.75 L -44.50 -5.55 L 31.50 15.45 L 31.50 18.25 L 0.00 36.49 L -31.50 18.25 L -31.50 2.00 L -44.50 2.00 L -44.50 25.75 L 0.00 51.51 L 44.50 25.75 L 44.50 5.55 L -31.50 -15.45 L -31.50 -18.25 L 0.00 -36.49 L 31.50 -18.25 L 31.50 -2.00 Z" fill="none" stroke="#FFFFFF" stroke-width="4.40" stroke-linejoin="miter" stroke-miterlimit="6"/>
+    <path d="M 38.00 -2.00 L 38.00 -22.00 L 0.00 -44.00 L -38.00 -22.00 L -38.00 -10.50 L 38.00 10.50 L 38.00 22.00 L 0.00 44.00 L -38.00 22.00 L -38.00 2.00" fill="none" stroke="#FFFFFF" stroke-width="4.00" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="6"/>
+  </g>
+</svg>

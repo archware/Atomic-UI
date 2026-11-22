@@ -1,0 +1,141 @@
+{
+  "app": {
+    "title": "Scrollable Table"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "users": "Users",
+    "results": "Results",
+    "settings": "Settings"
+  },
+  "user": {
+    "profile": "My Profile",
+    "changePassword": "Change Password",
+    "logout": "Log Out"
+  },
+  "filters": {
+    "title": "Filters",
+    "status": "Status",
+    "all": "All",
+    "active": "Active",
+    "pending": "Pending",
+    "inactive": "Inactive",
+    "rowCount": "Row Count",
+    "startDate": "Start Date",
+    "dateStart": "Start Date",
+    "dateEnd": "End Date",
+    "filter": "Filter",
+    "clear": "Clear",
+    "statusOptions": {
+      "all": "All",
+      "active": "Active",
+      "pending": "Pending",
+      "completed": "Completed",
+      "review": "In Review",
+      "approved": "Approved",
+      "inactive": "Inactive"
+    }
+  },
+  "table": {
+    "title": "Records",
+    "id": "ID",
+    "name": "Name",
+    "email": "Email",
+    "date": "Date",
+    "status": "Status",
+    "type": "Type",
+    "amount": "Amount",
+    "priority": "Priority",
+    "actions": "Actions",
+    "headers": {
+      "id": "ID",
+      "name": "Name",
+      "email": "Email",
+      "date": "Date",
+      "status": "Status",
+      "type": "Type",
+      "amount": "Amount",
+      "priority": "Priority",
+      "actions": "Actions"
+    }
+  },
+  "data": {
+    "status": {
+      "active": "Active",
+      "pending": "Pending",
+      "completed": "Completed",
+      "review": "In Review",
+      "approved": "Approved",
+      "inactive": "Inactive"
+    },
+    "type": {
+      "invoice": "Invoice",
+      "receipt": "Receipt",
+      "order": "Order",
+      "quote": "Quote",
+      "contract": "Contract"
+    },
+    "priority": {
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low"
+    }
+  },
+  "status": {
+    "active": "Active",
+    "pending": "Pending",
+    "completed": "Completed",
+    "inReview": "In Review",
+    "approved": "Approved"
+  },
+  "priority": {
+    "high": "High",
+    "medium": "Medium",
+    "low": "Low"
+  },
+  "actions": {
+    "view": "View",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "close": "Close"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "switchToLight": "Switch to light theme",
+    "switchToDark": "Switch to dark theme"
+  },
+  "language": {
+    "es": "Spanish",
+    "en": "English",
+    "select": "Language"
+  },
+  "common": {
+    "loading": "Loading...",
+    "noData": "No data",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Information"
+  },
+  "footer": {
+    "all_rights_reserved": "All rights reserved."
+  },
+  "demo": {
+    "project": {
+      "title": "About this Project",
+      "subtitle": "Angular Design System",
+      "description": "Atomic UI is a collection of reusable Angular components built with Design Tokens, Signals, and SSR support.",
+      "tech": "Built with Angular 22, standalone components, View Transitions API, and ngx-translate."
+    },
+    "components": {
+      "title": "Component Library",
+      "subtitle": "Atomic Design Architecture",
+      "description": "Components organized following Atomic Design principles: Atoms, Molecules, Organisms, Templates, and Pages."
+    }
+  }
+}

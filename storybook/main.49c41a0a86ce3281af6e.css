@@ -1,0 +1,4158 @@
+/* ============================================================================
+ * TIPOGRAFÍA LOCAL CANÓNICA — @atomic-ui/core
+ * ============================================================================
+ * Carga 100 % local (sin CDN ni llamadas externas en tiempo de ejecución) de:
+ *   - Open Sans (400, 500, 600, 700 — latin y latin-ext): cuerpo, tablas y controles UI
+ *   - Quicksand (400, 500, 600, 700 — latin + latin-ext): encabezados, títulos y métricas destacadas
+ * ========================================================================== */
+
+/* --- Open Sans (400 Regular) --- */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('open-sans-latin-ext-400-normal.cf153568fa4cabd8.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('open-sans-latin-400-normal.b5db02f0d09d688d.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* --- Open Sans (500 Medium) --- */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url('open-sans-latin-ext-500-normal.6228da1787c7f97b.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url('open-sans-latin-500-normal.013465ab24b5e2ec.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* --- Open Sans (600 SemiBold) --- */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url('open-sans-latin-ext-600-normal.6b73d1b9bb7deff8.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url('open-sans-latin-600-normal.4840173a88d500b9.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* --- Open Sans (700 Bold) --- */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url('open-sans-latin-ext-700-normal.1e04bca6d2b97e6f.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url('open-sans-latin-700-normal.03f17d7c3aa26da2.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* --- Quicksand (400 Regular) --- */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('quicksand-all-400.23b8b6d8416c40b0.woff2') format('woff2');
+}
+
+/* --- Quicksand (500 Medium) --- */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url('quicksand-all-500.b59a5a3a3847ea02.woff2') format('woff2');
+}
+
+/* --- Quicksand (600 SemiBold) --- */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url('quicksand-all-600.fea504780ce1ecca.woff2') format('woff2');
+}
+
+/* --- Quicksand (700 Bold) --- */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url('quicksand-all-700.cf9e668950410dc0.woff2') format('woff2');
+}
+
+/* =============================================================================
+   TOKENS PRIMITIVOS - Colores Base Universales
+   =============================================================================
+   ⚠️ ESTOS COLORES SON CONSTANTES - NO MODIFICAR ENTRE PROYECTOS
+   Representan valores de color puros sin contexto semántico
+
+   📅 Última actualización: Diciembre 2025
+   ============================================================================= */
+
+:root {
+   /* ─────────────────────────────────────────────────────────────────────────
+     ESCALA DE GRISES NEUTRAL
+     ───────────────────────────────────────────────────────────────────────── */
+   --gray-0: #FFFFFF;
+   --gray-50: #F9FAFB;
+   --gray-75: #efeff4;
+   /* iOS Light Gray - Surface Ground */
+   --gray-100: #F3F4F6;
+   --gray-200: #E5E7EB;
+   --gray-300: #D1D5DB;
+   --gray-400: #9CA3AF;
+   --gray-500: #6B7280;
+   --gray-600: #4B5563;
+   --gray-700: #374151;
+   --gray-800: #1F2937;
+   --gray-900: #111827;
+   --gray-950: #030712;
+   --gray-1000: #000000;
+
+   /* ─────────────────────────────────────────────────────────────────────────
+     COLORES iOS SYSTEM (Para estados semánticos)
+     ───────────────────────────────────────────────────────────────────────── */
+   --ios-green: #34C759;
+   --ios-green-dark: #30D158;
+   --ios-orange: #FF9500;
+   --ios-orange-dark: #FF9F0A;
+   --ios-red: #FF3B30;
+   --ios-red-dark: #FF453A;
+   --ios-blue: #007AFF;
+   --ios-blue-dark: #0A84FF;
+
+   /* ─────────────────────────────────────────────────────────────────────────
+     TIPOGRAFÍA (Carga 100 % local vía _fonts.css)
+     ───────────────────────────────────────────────────────────────────────── */
+   --font-family-base: 'Open Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+   --font-family-heading: 'Quicksand', 'Open Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+   --font-family-mono: 'JetBrains Mono', 'Fira Code', Consolas, monospace;
+
+
+   /* ─────────────────────────────────────────────────────────────────────────
+     COLORES SEMÁNTICOS FIJOS (Estados del sistema)
+     ───────────────────────────────────────────────────────────────────────── */
+
+   /* 🔴 Rojo - Errores, Peligro, Eliminación */
+   --red-50: #FEF2F2;
+   --red-100: #FEE2E2;
+   --red-200: #FECACA;
+   --red-300: #FCA5A5;
+   --red-400: #F87171;
+   --red-500: #EF4444;
+   --red-600: #DC2626;
+   --red-700: #B91C1C;
+   --red-800: #991B1B;
+   --red-900: #7F1D1D;
+
+   /* 🟢 Verde - Éxito, Confirmación, Activo */
+   --green-50: #F0FDF4;
+   --green-100: #DCFCE7;
+   --green-200: #BBF7D0;
+   --green-300: #86EFAC;
+   --green-400: #4ADE80;
+   --green-500: #22C55E;
+   --green-600: #16A34A;
+   --green-700: #15803D;
+   --green-800: #166534;
+   --green-900: #14532D;
+
+   /* 🟡 Amarillo - Advertencia, Precaución */
+   --yellow-50: #FEFCE8;
+   --yellow-100: #FEF9C3;
+   --yellow-200: #FEF08A;
+   --yellow-300: #FDE047;
+   --yellow-400: #FACC15;
+   --yellow-500: #EAB308;
+   --yellow-600: #CA8A04;
+   --yellow-700: #A16207;
+   --yellow-800: #854D0E;
+   --yellow-900: #713F12;
+
+   /* 🟠 Naranja - Alerta, Atención */
+   --orange-50: #FFF7ED;
+   --orange-100: #FFEDD5;
+   --orange-200: #FED7AA;
+   --orange-300: #FDBA74;
+   --orange-400: #FB923C;
+   --orange-500: #F97316;
+   --orange-600: #EA580C;
+   --orange-700: #C2410C;
+   --orange-800: #9A3412;
+   --orange-900: #7C2D12;
+
+   /* 🔵 Azul - Información, Enlaces */
+   --blue-50: #EFF6FF;
+   --blue-100: #DBEAFE;
+   --blue-200: #BFDBFE;
+   --blue-300: #93C5FD;
+   --blue-400: #60A5FA;
+   --blue-500: #3B82F6;
+   --blue-600: #2563EB;
+   --blue-700: #1D4ED8;
+   --blue-800: #1E40AF;
+   --blue-900: #1E3A8A;
+
+   /* 🩵 Cyan/Sky - Info secundaria */
+   --sky-50: #F0F9FF;
+   --sky-100: #E0F2FE;
+   --sky-200: #BAE6FD;
+   --sky-300: #7DD3FC;
+   --sky-400: #38BDF8;
+   --sky-500: #0EA5E9;
+   --sky-600: #0284C7;
+   --sky-700: #0369A1;
+   --sky-800: #075985;
+   --sky-900: #0C4A6E;
+
+   /* 💜 Púrpura - Especial, Premium */
+   --purple-50: #FAF5FF;
+   --purple-100: #F3E8FF;
+   --purple-200: #E9D5FF;
+   --purple-300: #D8B4FE;
+   --purple-400: #C084FC;
+   --purple-500: #A855F7;
+   --purple-600: #9333EA;
+   --purple-700: #7C3AED;
+   --purple-800: #6B21A8;
+   --purple-900: #581C87;
+
+   /* 🩷 Rosa - Destacado, Marketing */
+   --pink-50: #FDF2F8;
+   --pink-100: #FCE7F3;
+   --pink-200: #FBCFE8;
+   --pink-300: #F9A8D4;
+   --pink-400: #F472B6;
+   --pink-500: #EC4899;
+   --pink-600: #DB2777;
+   --pink-700: #BE185D;
+   --pink-800: #9D174D;
+   --pink-900: #831843;
+
+   /* 🩵 Teal - Complementario */
+   --teal-50: #F0FDFA;
+   --teal-100: #CCFBF1;
+   --teal-200: #99F6E4;
+   --teal-300: #5EEAD4;
+   --teal-400: #2DD4BF;
+   --teal-500: #14B8A6;
+   --teal-600: #0D9488;
+   --teal-700: #0F766E;
+   --teal-800: #115E59;
+   --teal-900: #134E4A;
+
+   /* ─────────────────────────────────────────────────────────────────────────
+     ESCALA DE TAMAÑOS DE ICONOS
+     ───────────────────────────────────────────────────────────────────────── */
+   --icon-xs: 0.75rem;
+   /* 12px */
+   --icon-sm: 1rem;
+   /* 16px */
+   --icon-md: 1.5rem;
+   /* 24px */
+   --icon-lg: 2rem;
+   /* 32px */
+
+   /* ─────────────────────────────────────────────────────────────────────────
+     ESCALA DE ESPACIADO (Margin, Padding, Gap)
+     Diseño por eliminación - solo estas opciones
+     ───────────────────────────────────────────────────────────────────────── */
+   --space-1: 0.25rem;
+   /* 4px  - Micro spacing */
+   --space-2: 0.5rem;
+   /* 8px  - Tight spacing */
+   --space-3: 0.75rem;
+   /* 12px - Compact spacing */
+   --space-4: 1rem;
+   /* 16px - Default spacing */
+   --space-5: 1.5rem;
+   /* 24px - Comfortable spacing */
+   --space-6: 2rem;
+   /* 32px - Loose spacing */
+   --space-7: 2.5rem;
+   /* 40px - Comfortable section spacing */
+   --space-8: 3rem;
+   /* 48px - Section spacing */
+   --space-9: 3.5rem;
+   /* 56px - Large spacing */
+   --space-10: 4rem;
+   /* 64px - Large section spacing */
+   --space-11: 2.75rem;
+   /* 44px - Component sizes (buttons, menu items) */
+   /* AVISO: este valor NO respeta el orden de la escala —es menor que el 8, el 9
+      y el 10— porque no es un espacio: es el objetivo tactil minimo de WCAG
+      2.5.5, que entro aqui por no haber donde ponerlo. Se conserva por
+      compatibilidad; lo nuevo usa --touch-target-min. Capitulo 10. */
+   --touch-target-min: 3rem;
+   /* 48px - Objetivo tactil minimo. Es un TAMAÑO, no un espacio.
+      Elevado de 2.75rem (44px) a 3rem (48px) por F3-ATOMIC-ADR-20260825. WCAG
+      2.5.5 pide 44 y la guia de Apple 44pt, pero Material Design exige 48dp y
+      la Ley E (apartado 8.6) prohibe que un objetivo tactil quede por debajo de
+      kMinInteractiveDimension, que vale 48.0. Subir cumple los tres listones;
+      44 solo cumplia dos. El capitulo 10 dejo escrito este procedimiento: sube
+      el objetivo tactil y no se mueve ni un margen. --space-11 conserva 2.75rem
+      para quien dependa del valor anterior. */
+
+   /* ─────────────────────────────────────────────────────────────────────────
+     ESCALA DE PESO TIPOGRÁFICO
+
+     Cuatro pasos gobernados sobre las familias locales cargadas en `_fonts.css`
+     (`'Open Sans'` para cuerpo/controles y `'Quicksand'` para encabezados/títulos,
+     servidas desde `./fonts/*.woff2` bajo `font-src 'self'`, con respaldo en
+     `system-ui` / `Segoe UI`).
+
+     La escala de uso en componentes mantiene cuatro pasos semánticos (400, 600,
+     700 y 800) para evitar pesos intermedios arbitrarios en hojas de estilo.
+     Capítulo 13.
+     ───────────────────────────────────────────────────────────────────────── */
+   --font-weight-body: 400;
+   /* Texto corrido. */
+   --font-weight-emphasis: 600;
+   /* Etiquetas, cabeceras de tabla, cifras que hay que leer primero. */
+   --font-weight-title: 700;
+   /* Titulos. */
+   --font-weight-display: 800;
+   /* Lo que grita: cifras de cabecera, etiquetas en mayusculas. Se declara 800 y
+      no 900 porque la cara que dibuja es la misma —Black— y 800 deja sitio por
+      arriba si algun dia se carga una familia con mas grados. */
+
+   /* ─────────────────────────────────────────────────────────────────────────
+     ESCALA DE TAMAÑOS DE FUENTE
+     ───────────────────────────────────────────────────────────────────────── */
+   --text-xs: 0.75rem;
+   /* 12px */
+   --text-2xs: 0.6875rem;
+   /* 11px */
+   --text-sm: 0.875rem;
+   /* 14px */
+   --text-md: 1rem;
+   /* 16px */
+   --text-lg: 1.125rem;
+   /* 18px */
+   --text-xl: 1.25rem;
+   /* 20px */
+   --text-2xl: 1.5rem;
+   /* 24px */
+   --text-3xl: 2rem;
+   /* 32px */
+   --text-4xl: 2.5rem;
+   /* 40px */
+
+   --letter-spacing-wide: 0.05em;
+
+   /* ─────────────────────────────────────────────────────────────────────────
+     ESCALA DE BORDER RADIUS
+     ───────────────────────────────────────────────────────────────────────── */
+   --radius-sm: 0.25rem;
+   /* 4px */
+   --radius-md: 0.5rem;
+   /* 8px */
+   --radius-lg: 0.75rem;
+   /* 12px */
+   --radius-xl: 1rem;
+   /* 16px */
+
+   /* Elevaciones (profundidad de sombra), en px logicos. No son una medida de
+      texto: no escalan con la preferencia tipografica. Un elemento interactivo
+      primario descansa un peldano por encima de la superficie; una tarjeta,
+      medio. Consumidas en Flutter como AtomicElevaciones (F3-DART-BRIDGE). */
+   --elevation-tarjeta: 1px;
+   /* 1px - reposo de una tarjeta sobre la superficie */
+   --elevation-boton: 2px;
+   /* 2px - accion primaria, un peldano por encima */
+   --elevation-boton-activo: 4px;
+   /* 4px - accion primaria mientras se pulsa */
+    --radius-full: 9999px;
+    --border-width-thin: 0.0625rem;
+    --border-width-medium: 0.125rem;
+    --border-width-thick: 0.1875rem;
+   /* Full rounded */
+
+   /* ─────────────────────────────────────────────────────────────────────────
+     ESCALA DE TAMAÑOS DE AVATAR
+     ───────────────────────────────────────────────────────────────────────── */
+   --avatar-xs: 1.5rem;
+   /* 24px */
+   --avatar-sm: 2rem;
+   /* 32px */
+   --avatar-md: 2.5rem;
+   /* 40px */
+   --avatar-lg: 3rem;
+   /* 48px */
+   --avatar-xl: 4rem;
+   /* 64px */
+
+   /* ─────────────────────────────────────────────────────────────────────────
+     ESCALA DE ALTURAS DE CONTROL (Buttons, Inputs)
+     ───────────────────────────────────────────────────────────────────────── */
+   --control-height-xs: 1.5rem;
+   /* 24px - Chips, mini buttons */
+   --control-height-sm: 2rem;
+   /* 32px - Compact inputs */
+   --control-height-md: 2.875rem;
+   /* 46px - Default (actual --control-height) */
+   --control-height-lg: 3.5rem;
+   /* 56px - Prominent CTAs */
+   --checkbox-size: var(--space-5);
+   --checkbox-icon-size: var(--text-sm);
+
+   /* ─────────────────────────────────────────────────────────────────────────
+      ETIQUETA DE CAMPO (Input, Select, Select2, Textarea, Datepicker, ...)
+      Un solo contrato tipografico para la etiqueta superior y la flotante.
+      Peso 700 (--font-weight-title) en etiqueta superior, flotante en reposo y flotante elevada;
+      la flotante elevada usa 0.8125rem (13px) para mantener trazo firme y nitido.
+      ───────────────────────────────────────────────────────────────────────── */
+   --field-label-font-size: var(--text-sm);
+   --field-label-font-weight: var(--font-weight-title);
+   --field-label-line-height: 1.25;
+   --field-label-gap: var(--space-1);
+   /* Separacion entre etiqueta superior y control. */
+   --field-label-inset: var(--space-3);
+   /* Sangria horizontal de la etiqueta flotante dentro del control. */
+   --field-label-padding: 0 var(--space-1);
+   /* Recorte del borde bajo la etiqueta flotante. */
+   --field-label-floated-font-size: 0.8125rem;
+   --field-label-floated-font-weight: var(--font-weight-title);
+   --field-label-duration: 200ms;
+}
+
+/* =============================================================================
+   TOKENS DE MARCA - PERSONALIZACIÓN POR EMPRESA
+   =============================================================================
+
+   🎨 INSTRUCCIONES PARA PERSONALIZAR:
+   ──────────────────────────────────────────────────────────────────────────────
+   1. Cambia los valores de --brand-primary-* con los colores de tu empresa
+   2. Cambia los valores de --brand-secondary-* con el color secundario
+   3. Opcionalmente ajusta --brand-accent-* para un tercer color
+   4. Los colores deben seguir una escala de 50 (más claro) a 900 (más oscuro)
+
+   💡 TIP: Usa https://uicolors.app para generar escalas de color automáticamente
+
+   📅 Última actualización: Noviembre 2026
+   🏢 Marca actual: SSIT CONSULTING E.I.R.L. · Barracuda & Mangosta (Opción B: Zafiro Cobalto + Oro Imperial)
+   ============================================================================= */
+
+:root {
+   /* ─────────────────────────────────────────────────────────────────────────
+     🔵 COLOR PRIMARIO DE MARCA (Azul Zafiro Cobalto — Doctrina Barracuda)
+     Base: #0369A1
+     Estilo: Ejecutivo, Tecnológico, Consultoría Corporativa
+     ───────────────────────────────────────────────────────────────────────── */
+   --brand-primary-50: #f0f9ff;
+   --brand-primary-100: #e0f2fe;
+   --brand-primary-200: #bae6fd;
+   --brand-primary-300: #7dd3fc;
+   --brand-primary-400: #38bdf8;
+   --brand-primary-500: #0369A1;
+   /* ← COLOR PRINCIPAL */
+   --brand-primary-500-rgb: 3, 105, 161;
+   /* RGB para uso en rgba() */
+   --brand-primary-600: #075985;
+   --brand-primary-700: #0c4a6e;
+   --brand-primary-800: #083344;
+   --brand-primary-900: #0b121e;
+
+   /* Colores especiales de acento (derivados del primario) */
+   --brand-primary-A100: #a5f3fc;
+   --brand-primary-A200: #67e8f9;
+   --brand-primary-A400: #0284c7;
+   --brand-primary-A700: #0277bd;
+
+   /* ─────────────────────────────────────────────────────────────────────────
+     🟡 COLOR SECUNDARIO DE MARCA (Oro Bronce Imperial — Doctrina Mangosta)
+     Base: #F59E0B / #D97706
+     Estilo: Contraste Ejecutivo, Energía, Precisión
+     ───────────────────────────────────────────────────────────────────────── */
+   --brand-secondary-50: #fffbeb;
+   --brand-secondary-100: #fef3c7;
+   --brand-secondary-200: #fde68a;
+   --brand-secondary-300: #fcd34d;
+   --brand-secondary-400: #fbbf24;
+   /* Ajustado para mejor visibilidad */
+   --brand-secondary-500: #F59E0B;
+   /* ← COLOR SECUNDARIO PRINCIPAL */
+   --brand-secondary-500-rgb: 245, 158, 11;
+   /* RGB para uso en rgba() */
+   --brand-secondary-600: #d97706;
+   --brand-secondary-700: #b45309;
+   --brand-secondary-800: #92400e;
+   --brand-secondary-900: #78350f;
+   --brand-secondary-950: #291002;
+
+   /* ─────────────────────────────────────────────────────────────────────────
+     🩵 COLOR DE ACENTO (Teal Ártico Complementario)
+     Para elementos especiales, telemetría e indicadores analíticos
+     ───────────────────────────────────────────────────────────────────────── */
+   --brand-accent-50: #f0fdfa;
+   --brand-accent-100: #ccfbf1;
+   --brand-accent-200: #99f6e4;
+   --brand-accent-300: #5eead4;
+   --brand-accent-400: #2dd4bf;
+   --brand-accent-500: #0d9488;
+   --brand-accent-600: #0f766e;
+   --brand-accent-700: #115e59;
+   --brand-accent-800: #134e4a;
+   --brand-accent-900: #042f2e;
+
+   /* ─────────────────────────────────────────────────────────────────────────
+     🏢 METADATOS DE MARCA (para documentación)
+     Estos son comentarios de referencia, no afectan el CSS
+     ───────────────────────────────────────────────────────────────────────── */
+}
+
+/* =============================================================================
+   TOKENS SEMÁNTICOS - MAPEO POR CONTEXTO DE USO
+   =============================================================================
+   Este archivo NO se modifica entre proyectos.
+   Los colores se derivan automáticamente de los tokens de marca.
+
+   📅 Última actualización: Noviembre 2026
+   ============================================================================= */
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   🌞 TEMA CLARO (Light Theme) - DEFAULT
+   ───────────────────────────────────────────────────────────────────────────── */
+:root,
+[data-theme="light"],
+.theme-light {
+   color-scheme: light;
+
+   /* === SUPERFICIES === */
+   --surface-ground: var(--gray-75);
+   /* Fondo de página - derivado de gray-75 */
+   --surface-background: #ffffff;
+   /* Fondo de cards/contenedores */
+   --surface-section: #efeff4;
+   /* Secciones alternadas */
+   --surface-overlay: rgba(0, 0, 0, 0.4);
+   /* Modales overlay */
+   --surface-elevated: #ffffff;
+   /* Elementos elevados */
+   --surface-sunken: #F0F0F0;
+   /* Elementos hundidos / Deshabilitados */
+
+   /* === TEXTO === */
+   --text-color: var(--gray-800);
+   /* Texto principal - Slate soft */
+   --text-color-secondary: var(--gray-600);
+   /* Texto secundario */
+   --text-color-muted: var(--gray-500);
+   /* Texto deshabilitado/sutil */
+   --text-color-placeholder: var(--gray-400);
+   /* Placeholders */
+   --text-color-inverse: var(--gray-0);
+   /* Texto sobre fondos oscuros */
+   --text-color-on-primary: var(--gray-0);
+   /* Texto sobre color primario */
+   --text-color-on-secondary: var(--brand-secondary-950);
+   /* Texto sobre color secundario */
+
+   /* === BORDES === */
+   --border-color: var(--gray-300);
+   /* Borde por defecto */
+   --border-color-light: var(--gray-200);
+   /* Borde sutil */
+   --border-color-strong: var(--gray-400);
+   /* Borde enfatizado */
+   --border-color-focus: var(--brand-primary-500);
+   /* Borde en focus */
+
+   /* === COLORES DE MARCA (Contextuales) === */
+   --primary-color: var(--brand-primary-500);
+   --primary-color-light: var(--brand-primary-100);
+   --primary-color-lighter: #e8f0fe;
+   /* Adjusted for Selected BG match */
+   --primary-color-dark: var(--brand-primary-700);
+   --primary-color-darker: var(--brand-primary-900);
+   --primary-color-text: var(--brand-primary-700);
+   --primary-color-hover: var(--brand-primary-600);
+   --primary-color-active: var(--brand-primary-700);
+
+   --secondary-color: var(--brand-secondary-500);
+   --secondary-color-light: var(--brand-secondary-100);
+   --secondary-color-lighter: var(--brand-secondary-50);
+   --secondary-color-dark: var(--brand-secondary-700);
+   --secondary-color-darker: var(--brand-secondary-900);
+   --secondary-color-text: var(--brand-secondary-800);
+   --secondary-color-hover: var(--brand-secondary-600);
+   --secondary-color-active: var(--brand-secondary-700);
+
+   --accent-color: var(--brand-accent-500);
+   --accent-color-light: var(--brand-accent-100);
+   --accent-color-lighter: var(--brand-accent-50);
+   --accent-color-dark: var(--brand-accent-700);
+   --accent-color-text: var(--brand-accent-700);
+
+   /* === ESTADOS SEMÁNTICOS === */
+   --success-color: var(--ios-green);
+   --success-color-light: var(--green-100);
+   --success-color-lighter: var(--green-50);
+   --success-color-dark: var(--green-700);
+   --success-color-text: var(--green-700);
+   --success-color-hover: var(--green-600);
+
+   --warning-color: var(--ios-orange);
+   --warning-color-light: var(--yellow-100);
+   --warning-color-lighter: var(--yellow-50);
+   --warning-color-dark: var(--yellow-600);
+   --warning-color-text: var(--yellow-700);
+   --warning-color-hover: var(--orange-600);
+
+   --danger-color: var(--ios-red);
+   --danger-color-light: var(--red-100);
+   --danger-color-lighter: var(--red-50);
+   --danger-color-dark: var(--red-700);
+   --danger-color-text: var(--red-800);
+   --danger-color-hover: var(--red-600);
+
+   --info-color: var(--ios-blue);
+   --info-color-light: var(--blue-100);
+   --info-color-lighter: var(--blue-50);
+   --info-color-dark: var(--blue-700);
+   --info-color-text: var(--blue-900);
+   --info-color-hover: var(--blue-700);
+
+   /* === TEXTO DESHABILITADO === */
+   --text-color-disabled: var(--gray-400);
+
+   /* === INTERACCIONES === */
+   --hover-background: var(--primary-color-lighter);
+   --hover-background-subtle: var(--gray-100);
+   --active-background: var(--primary-color-lighter);
+   --selected-background: var(--primary-color-lighter);
+   --surface-hover: var(--gray-100);
+   --focus-ring-color: var(--brand-primary-500);
+   --focus-ring: 0 0 0 3px rgba(3, 105, 161, 0.2);
+
+   /* === SOMBRAS === */
+   /* Sombras más pronunciadas para mayor profundidad en modo claro */
+  --shadow-color: 220 10% 10%;
+  --shadow-xs: 0 2px 4px hsl(var(--shadow-color) / 0.25);
+  --shadow-sm: 0 3px 6px hsl(var(--shadow-color) / 0.3),
+     0 1px 3px hsl(var(--shadow-color) / 0.25);
+  --shadow-md: 0 6px 12px hsl(var(--shadow-color) / 0.35),
+     0 3px 6px hsl(var(--shadow-color) / 0.25);
+  --shadow-lg: 0 12px 24px hsl(var(--shadow-color) / 0.4),
+     0 6px 12px hsl(var(--shadow-color) / 0.3);
+  --shadow-xl: 0 24px 48px hsl(var(--shadow-color) / 0.5),
+     0 12px 24px hsl(var(--shadow-color) / 0.4);
+
+   /* Sombras de Focus */
+   --shadow-focus-primary: 0 0 0 3px rgba(3, 105, 161, 0.2);
+   --shadow-focus-secondary: 0 0 0 3px rgba(245, 158, 11, 0.2);
+
+   /* Sombras de Glow (para estados activos) */
+   --shadow-glow-primary: 0 4px 12px rgba(3, 105, 161, 0.35);
+   --shadow-glow-success: 0 4px 12px rgba(52, 199, 89, 0.4);
+
+   /* Sombras de Dropdown/Popover */
+   --shadow-dropdown: 0 10px 25px -5px rgba(0, 0, 0, 0.1),
+      0 8px 10px -6px rgba(0, 0, 0, 0.1);
+
+   /* Overlay de Modal */
+   --overlay-backdrop: rgba(0, 0, 0, 0.5);
+
+   /* === COMPONENTES ESPECÍFICOS === */
+
+   /* Skeleton Gradients */
+   --skeleton-gradient-start: #e2e8f0;
+   --skeleton-gradient-mid: #cbd5e1;
+   --skeleton-card-bg: #ffffff;
+   --skeleton-card-border: #e5e7eb;
+
+   /* Rating Stars */
+   --rating-star-empty: var(--border-color);
+   --rating-star-filled: #fbbf24;
+   --rating-star-hover: #f59e0b;
+
+   /* Theme Switcher Icons */
+   --icon-sun-color: #f59e0b;
+   --icon-moon-color: #6366f1;
+   --icon-star-color: var(--primary-color);
+
+   /* === COMPATIBILIDAD LEGADO (variables antiguas) === */
+   --bg-primary: var(--surface-ground);
+   --bg-secondary: var(--surface-background);
+   --bg-tertiary: var(--brand-secondary-50);
+   --text-primary: var(--text-color);
+   --text-secondary: var(--text-color-secondary);
+   --text-muted: var(--text-color-muted);
+   --color-primary: var(--primary-color);
+   --color-primary-light: var(--primary-color-light);
+   --color-primary-lighter: var(--primary-color-lighter);
+   --color-primary-dark: var(--primary-color-dark);
+   --color-primary-darker: var(--primary-color-darker);
+   --color-secondary: var(--secondary-color);
+   --color-secondary-light: var(--secondary-color-light);
+   --color-secondary-lighter: var(--secondary-color-lighter);
+   --color-secondary-dark: var(--secondary-color-dark);
+   --color-secondary-darker: var(--secondary-color-darker);
+   --shadow-primary: rgba(3, 105, 161, 0.25);
+   --shadow-secondary: rgba(245, 158, 11, 0.2);
+   --accent-primary: var(--brand-primary-400);
+   --accent-secondary: var(--brand-secondary-400);
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   🌙 BASE OSCURA COMPARTIDA (Dark Base)
+   Tokens comunes para todos los temas oscuros
+   ───────────────────────────────────────────────────────────────────────────── */
+[data-theme="dark"],
+[data-theme="brand-dark"],
+.theme-dark,
+html.dark,
+.dark {
+   color-scheme: dark;
+
+   /* === TEXTO (Compartido) === */
+   --text-color: #f9fafb;
+   --text-color-secondary: #d1d5db;
+   --text-color-muted: #9ca3af;
+   --text-color-placeholder: #6b7280;
+   --text-color-inverse: #111827;
+   --text-color-on-primary: #ffffff;
+   --text-color-on-secondary: var(--brand-secondary-950);
+   --text-color-disabled: var(--gray-600);
+
+   /* === COLORES DE MARCA (Compartido) === */
+   --primary-color: var(--brand-primary-400);
+   --primary-color-light: var(--brand-primary-900);
+   --primary-color-dark: var(--brand-primary-300);
+   --primary-color-darker: var(--brand-primary-200);
+   --primary-color-text: var(--brand-primary-300);
+   --primary-color-hover: var(--brand-primary-300);
+   --primary-color-active: var(--brand-primary-200);
+
+   --secondary-color: var(--brand-secondary-400);
+   --secondary-color-light: var(--brand-secondary-900);
+   --secondary-color-lighter: rgba(255, 184, 0, 0.15);
+   --secondary-color-dark: var(--brand-secondary-300);
+   --secondary-color-darker: var(--brand-secondary-200);
+   --secondary-color-text: var(--brand-secondary-300);
+   --secondary-color-hover: var(--brand-secondary-300);
+   --secondary-color-active: var(--brand-secondary-200);
+
+   --accent-color: var(--brand-accent-400);
+   --accent-color-light: var(--brand-accent-900);
+   --accent-color-lighter: color-mix(in srgb, var(--accent-color) 16%, transparent);
+   --accent-color-dark: var(--brand-accent-300);
+   --accent-color-text: var(--brand-accent-300);
+
+   /* === ESTADOS SEMÁNTICOS (Compartido) === */
+   --success-color: var(--ios-green-dark);
+   --success-color-light: rgba(48, 209, 88, 0.15);
+   --success-color-lighter: rgba(48, 209, 88, 0.1);
+   --success-color-dark: #208b3a;
+   --success-color-text: var(--ios-green-dark);
+   --success-color-hover: var(--green-400);
+
+   --warning-color: var(--ios-orange-dark);
+   --warning-color-light: rgba(255, 159, 10, 0.15);
+   --warning-color-lighter: rgba(255, 159, 10, 0.1);
+   --warning-color-dark: #cc7a00;
+   --warning-color-text: var(--ios-orange-dark);
+   --warning-color-hover: var(--orange-400);
+
+   --danger-color: var(--ios-red-dark);
+   --danger-color-light: rgba(255, 69, 58, 0.15);
+   --danger-color-lighter: rgba(255, 69, 58, 0.1);
+   --danger-color-dark: #cc251c;
+   --danger-color-text: var(--red-300);
+   --danger-color-hover: var(--red-400);
+
+   --info-color: var(--ios-blue-dark);
+   --info-color-light: rgba(10, 132, 255, 0.15);
+   --info-color-lighter: rgba(10, 132, 255, 0.1);
+   --info-color-dark: #0066cc;
+   --info-color-text: var(--blue-300);
+   --info-color-hover: var(--blue-400);
+
+   /* === FOCUS (Compartido) === */
+   --focus-ring-color: var(--brand-primary-400);
+   --focus-ring: 0 0 0 3px rgba(56, 189, 248, 0.3);
+
+   /* === SOMBRAS DE FOCUS/GLOW (Compartido) === */
+   --shadow-focus-primary: 0 0 0 3px rgba(56, 189, 248, 0.3);
+   --shadow-focus-secondary: 0 0 0 3px rgba(251, 191, 36, 0.3);
+   --shadow-glow-primary: 0 0 15px rgba(56, 189, 248, 0.4);
+   --shadow-glow-success: 0 0 15px rgba(48, 209, 88, 0.4);
+   --shadow-dropdown: 0 10px 25px -5px rgba(0, 0, 0, 0.4),
+      0 8px 10px -6px rgba(0, 0, 0, 0.3);
+   --overlay-backdrop: rgba(0, 0, 0, 0.7);
+
+   /* === COMPONENTES ESPECÍFICOS (Compartido) === */
+   --skeleton-gradient-start: #64748b;
+   --skeleton-gradient-mid: #94a3b8;
+   --skeleton-card-bg: #334155;
+   --skeleton-card-border: #64748b;
+
+   --rating-star-empty: var(--border-color);
+   --rating-star-filled: #fcd34d;
+   --rating-star-hover: #fbbf24;
+
+   --icon-sun-color: #fcd34d;
+   --icon-moon-color: #a5b4fc;
+   --icon-star-color: var(--primary-color);
+
+   /* === COMPATIBILIDAD LEGADO (Compartido) === */
+   --text-primary: var(--gray-100);
+   --text-secondary: var(--gray-300);
+   --text-muted: var(--gray-400);
+   --color-primary: var(--brand-primary-300);
+   --color-primary-light: var(--brand-primary-200);
+   --color-primary-lighter: var(--brand-primary-100);
+   --color-primary-dark: var(--brand-primary-600);
+   --color-primary-darker: var(--brand-primary-900);
+   --color-secondary: var(--brand-secondary-400);
+   --color-secondary-light: var(--brand-secondary-300);
+   --color-secondary-lighter: var(--brand-secondary-200);
+   --color-secondary-dark: var(--brand-secondary-600);
+   --color-secondary-darker: var(--brand-secondary-950);
+   --shadow-primary: rgba(56, 189, 248, 0.3);
+   --shadow-secondary: rgba(251, 191, 36, 0.25);
+   --accent-primary: var(--brand-primary-200);
+   --accent-secondary: var(--brand-secondary-300);
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   🌙 TEMA OSCURO CORPORATIVO (Brand Dark) - Deep Blue
+   Solo overrides de superficie específicos
+   ───────────────────────────────────────────────────────────────────────────── */
+[data-theme="brand-dark"] {
+   /* === SUPERFICIES (Deep Blue Theme) === */
+   --surface-ground: #171a23;
+   --surface-background: #1b2440;
+   --surface-section: #2a3556;
+   --surface-overlay: rgba(23, 26, 35, 0.85);
+   --surface-elevated: #202f61;
+   --surface-sunken: #29324d;
+
+   /* === BORDES === */
+   --border-color: #2a3556;
+   --border-color-light: #202f61;
+   --border-color-strong: #404040;
+   --border-color-focus: var(--brand-primary-400);
+
+   /* === INTERACCIONES === */
+   --hover-background: #202f61;
+   --hover-background-subtle: #29324d;
+   --active-background: #202f61;
+   --selected-background: #202f61;
+   --surface-hover: var(--surface-elevated);
+   --primary-color-lighter: #202f61;
+
+   /* === SOMBRAS — elevation overlay (anillo blanco + sombra profunda) === */
+   /* Sombras y contornos más fuertes para destacar elementos en modo oscuro */
+  --shadow-color: 220 40% 2%;
+  --shadow-xs: 0 0 0 1px rgba(255, 255, 255, 0.10), 0 2px 4px hsl(var(--shadow-color) / 0.95);
+  --shadow-sm: 0 0 0 1px rgba(255, 255, 255, 0.12), 0 4px 8px hsl(var(--shadow-color) / 0.95);
+  --shadow-md: 0 0 0 1px rgba(255, 255, 255, 0.15), 0 8px 16px hsl(var(--shadow-color) / 0.95);
+  --shadow-lg: 0 0 0 1px rgba(255, 255, 255, 0.18), 0 16px 32px hsl(var(--shadow-color) / 0.95);
+  --shadow-xl: 0 0 0 1px rgba(255, 255, 255, 0.20), 0 24px 48px hsl(var(--shadow-color) / 1);
+
+   /* === LEGADO ESPECÍFICO === */
+   --bg-primary: #0e0e14;
+   --bg-secondary: #1a1a24;
+   --bg-tertiary: #252534;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   🌙 TEMA OSCURO ESTÁNDAR (Neutral Dark)
+   Solo overrides de superficie específicos (hereda tokens de base compartida)
+   ───────────────────────────────────────────────────────────────────────────── */
+[data-theme="dark"],
+.theme-dark,
+html.dark:not([data-theme="brand-dark"]),
+.dark:not([data-theme="brand-dark"]) {
+   /* === SUPERFICIES (Neutral) === */
+   --surface-ground: #121212;
+   --surface-background: #1e1e1e;
+   --surface-section: #252525;
+   --surface-overlay: rgba(0, 0, 0, 0.8);
+   --surface-elevated: #2d2d2d;
+   --surface-sunken: #181818;
+
+   /* === BORDES === */
+   --border-color: #374151;
+   --border-color-light: #2c2c2c;
+   --border-color-strong: #4b5563;
+   --border-color-focus: var(--brand-primary-400);
+
+   /* === INTERACCIONES === */
+   --hover-background: #2d2d2d;
+   --hover-background-subtle: #252525;
+   --active-background: #2d2d2d;
+   --selected-background: #2d2d2d;
+   --surface-hover: var(--surface-elevated);
+   --primary-color-lighter: #2d2d2d;
+
+   /* === SOMBRAS — elevation overlay (anillo blanco + sombra profunda) === */
+   /* Sombras y contornos más fuertes para modo deep dark */
+  --shadow-color: 0 0% 0%;
+  --shadow-xs: 0 0 0 1px rgba(255, 255, 255, 0.10), 0 2px 4px rgba(0, 0, 0, 0.95);
+  --shadow-sm: 0 0 0 1px rgba(255, 255, 255, 0.12), 0 4px 8px rgba(0, 0, 0, 0.95);
+  --shadow-md: 0 0 0 1px rgba(255, 255, 255, 0.15), 0 8px 16px rgba(0, 0, 0, 0.95);
+  --shadow-lg: 0 0 0 1px rgba(255, 255, 255, 0.18), 0 16px 32px rgba(0, 0, 0, 0.95);
+  --shadow-xl: 0 0 0 1px rgba(255, 255, 255, 0.20), 0 24px 48px rgba(0, 0, 0, 1);
+
+   /* === LEGADO ESPECÍFICO === */
+   --bg-primary: #121212;
+   --bg-secondary: #1e1e1e;
+   --bg-tertiary: #252525;
+}
+
+/* =============================================================================
+   TOKENS DE COMPONENTES - Estilos específicos de UI
+   =============================================================================
+   Tokens derivados para componentes específicos de la aplicación.
+   Estos tokens utilizan los valores semánticos definidos en _tokens-semantic.css
+
+   📅 Última actualización: Noviembre 2026
+   ============================================================================= */
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   🌞 TEMA CLARO - Componentes
+   ───────────────────────────────────────────────────────────────────────────── */
+:root,
+[data-theme="light"],
+.theme-light {
+
+  /* === CHAPA DE ENTORNO (atoms/version) ===
+     QA y STAGING no tienen tono en la paleta semantica, y con razon: exito,
+     aviso, peligro e informacion nombran VEREDICTOS, no entornos. El violeta
+     vive aqui, con el resto de tokens de componente, y no en el CSS del propio
+     componente: el tema se resuelve en un solo sitio. */
+  --version-qa-fill: var(--purple-500);
+  --version-qa-surface: var(--purple-50);
+  --version-qa-border: var(--purple-200);
+  --version-qa-text: var(--purple-800);
+   /* === NAVEGACIÓN === */
+   --nav-bg: var(--surface-background);
+   --nav-text: var(--text-color);
+   --nav-text-hover: var(--primary-color);
+   --nav-border: var(--border-color-light);
+   --nav-item-hover-bg: var(--hover-background-subtle);
+   --nav-item-active-bg: var(--primary-color-lighter);
+   --nav-item-active-text: var(--primary-color);
+   --nav-shadow: var(--shadow-sm);
+   --topbar-height: 4rem;
+   --topbar-action-icon-size: var(--icon-md);
+   --topbar-title-max-inline-size: 10rem;
+   --topbar-title-compact-min-inline-size: 5rem;
+   --topbar-title-compact-max-inline-size: 9.375rem;
+
+   /* === CONTENEDORES DESPLAZABLES === */
+   --size-panel-scroll-max: clamp(12rem, 55dvh, 25rem);
+   --size-scroll-region-compact: 7.5rem;
+   --size-table-viewport-compact: 13.75rem;
+
+   /* === SIDEBAR === */
+   --sidebar-bg: var(--surface-background);
+   --sidebar-text: var(--text-color-secondary);
+   --sidebar-heading: var(--text-color);
+   --sidebar-border: var(--border-color-light);
+   --sidebar-item-hover: var(--hover-background-subtle);
+   --sidebar-item-active: var(--primary-color-lighter);
+
+   /* === CARDS === */
+   --card-bg: var(--surface-background);
+   --card-border: var(--border-color-light);
+   --card-header-bg: var(--surface-section);
+   --card-footer-bg: var(--surface-section);
+   --card-shadow: var(--shadow-md);
+
+   /* === TABLAS ===
+      Tokens que los componentes atómicos realmente consumen.
+      Prefijo --table-color-*  → colores de superficie
+      Prefijo --table-font-*   → tipografía
+      Prefijo --table-card-*   → layout responsive (móvil)
+      Prefijo --table-header-* → estilos de cabecera
+      LEGADO: tokens --table-bg / --table-stripe-bg mantenidos para
+              compatibilidad con código de gerencial/operativo existente. */
+
+   /* --- Colores de superficie (consumidos por table.component.ts) --- */
+   --table-color-background:  var(--surface-background);
+   --table-color-stripe:      var(--gray-50);
+   --table-color-hover:       var(--brand-primary-50);
+   --table-color-border:      var(--brand-primary-200);
+   --table-color-border-light: rgba(0, 0, 0, 0.05);
+   --table-color-text:        var(--text-color-secondary);
+   --table-color-primary:     var(--primary-color);
+
+   /* --- Tipografía --- */
+   --heading-font-family:      var(--font-family-heading);
+   --table-font-family:        var(--font-family-base);
+   --table-font-size:          0.875rem;
+   --table-font-size-header:   0.75rem;
+   --table-font-weight-header: 600;
+   --table-font-weight-label:  600;
+
+   /* --- Espaciado de celdas --- */
+   --table-cell-padding: 0.75rem 1rem;
+
+   /* --- Cabecera --- */
+   --table-header-color:        var(--text-color);
+   --table-header-bg:           var(--surface-section);
+   --table-header-border-width: 2px;
+   --table-header-border-style: solid;
+   --table-header-border-color: var(--brand-primary-200);
+   --table-header-radius:       0.5rem;
+   --table-header-shadow:       none;
+
+   /* --- Hover de filas --- */
+   --table-row-hover-shadow:    0 4px 12px rgba(0, 0, 0, 0.08), 0 2px 4px rgba(0, 0, 0, 0.04);
+   --table-row-hover-transform: translateY(-2px);
+
+   /* --- Transición --- */
+   --table-transition-duration: 0.2s;
+   --table-transition-timing:   ease;
+
+   /* --- Responsive (cards en móvil) --- */
+   --table-border-radius: 0.5rem;
+   --table-card-padding:  1rem;
+   --table-card-gap:      0.75rem;
+   --table-card-shadow:   var(--shadow-sm);
+
+   /* --- Legado mantenido (gerencial, operativo) --- */
+   --table-bg:              var(--surface-background);
+   --table-header-start:    var(--brand-primary-500);
+   --table-header-end:      var(--brand-secondary-500);
+   --table-header-text:     var(--text-color);
+   --table-cell-text:       var(--text-color-secondary);
+   --table-row-alt-bg:      var(--surface-section);
+   --table-row-hover:       var(--brand-primary-50);
+   --table-row-selected:    var(--selected-background);
+   --table-border:          var(--brand-primary-100);
+   --table-stripe-bg:       var(--gray-50);
+   --table-stripe-alt:      var(--brand-secondary-50);
+   --table-hover-bg:        var(--brand-primary-50);
+   --table-hover-secondary: var(--brand-secondary-50);
+   --table-row-transition:  background-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+
+   /* === CHARTS ===
+      Tokens consumidos por chart.component.ts vía getComputedStyle y catálogo. */
+   --chart-title-color:       var(--text-color);
+   --chart-text-color:        var(--text-color-secondary);
+   --chart-tooltip-bg:        var(--surface-elevated);
+   --chart-tooltip-text:      var(--text-color);
+   --chart-tooltip-border:    var(--border-color);
+   --chart-grid-color:        rgba(15, 23, 42, 0.08);
+   --chart-axis-border-color: rgba(15, 23, 42, 0.18);
+   --surface-color:           var(--surface-background);
+   --chart-datalabel-on-light: var(--gray-900);
+   --chart-datalabel-on-dark:  var(--gray-0);
+   --chart-arc-shadow-color:  rgba(15, 23, 42, 0.14);
+
+   /* Paleta ejecutiva categórica de segmentos (donut, bar, line, radar, polarArea)
+      Adaptada por tema (light/dark/brand-dark) para cumplir WCAG 1.4.11 >= 3.0:1
+      sobre superficies del tema y >= 4.5:1 frente a tinta de datalabels. */
+   --chart-color-1:  var(--brand-primary-500);
+   --chart-color-2:  var(--brand-accent-600);
+   --chart-color-3:  #b45309;
+   --chart-color-4:  #047857;
+   --chart-color-5:  #4338ca;
+   --chart-color-6:  #be123c;
+   --chart-color-7:  #1d4ed8;
+   --chart-color-8:  #c2410c;
+   --chart-color-9:  #0e7490;
+   --chart-color-10: #475569;
+
+   /* Paleta semántica para indicadores, líneas y barras con datalabels */
+   --chart-tone-neutral: var(--gray-600);
+   --chart-tone-brand:   var(--primary-color);
+   --chart-tone-accent:  var(--brand-accent-600);
+   --chart-tone-info:    var(--blue-600);
+   --chart-tone-success: #047857;
+   --chart-tone-warning: var(--brand-secondary-700);
+   --chart-tone-danger:  var(--red-700);
+
+   /* Alias semánticos para dashboards */
+   --chart-series-primary:   var(--chart-tone-brand);
+   --chart-series-secondary: var(--chart-tone-accent);
+   --chart-series-positive:  var(--chart-tone-success);
+   --chart-series-info:      var(--chart-tone-info);
+   --chart-series-warning:   var(--chart-tone-warning);
+   --chart-series-danger:    var(--chart-tone-danger);
+   --chart-series-neutral:   var(--chart-tone-neutral);
+
+   /* Color semántico para texto sobre barras de avance */
+   --chart-label-color: var(--text-color-secondary);
+
+   /* === FORMULARIOS / INPUTS === */
+   --control-height: var(--control-height-md);
+   /* Derivado de primitivos - 46px standard */
+   --input-bg: var(--surface-background);
+   --input-border: var(--gray-300);
+   /* Más oscuro para contraste */
+   --input-border-width: 2.5px;
+   /* Grosor óptimo para visibilidad */
+   --input-border-hover: var(--info-color);
+   /* Igual que select2: hover usa color primario para look&feel uniforme */
+   --input-border-focus: var(--info-color);
+   --input-placeholder: var(--text-color-placeholder);
+   --field-label-color: var(--text-color);
+   --field-label-color-resting: var(--text-color-secondary);
+   --field-label-color-floated: var(--info-color-text);
+   --field-label-color-error: var(--danger-color-text);
+   --input-text: var(--text-color);
+   --input-shadow: var(--shadow-sm);
+   /* LIGHT: drop shadow clásico (profundidad) */
+   --input-shadow-hover: var(--shadow-md);
+   /* LIGHT: sombra elevada al hacer hover — igual que select2 */
+   --input-shadow-focus: 0 0 0 3px rgba(0, 122, 255, 0.25);
+   /* LIGHT: glow azul al enfocar inputs/selects */
+   --form-row-gap: 2.25rem;
+   /* 36px - espaciado vertical entre secciones de formulario */
+   --input-disabled-bg: var(--gray-100);
+   /* LIGHT: gray-400 sobre gray-100 daba 2.31:1, ilegible incluso en su propio
+      tema. gray-600 sobre gray-100 da 6.87:1. (WCAG 1.4.3 exime a los controles
+      inactivos; 4.5:1 se sostiene aquí como listón propio de legibilidad.) */
+   --input-disabled-text: var(--gray-600);
+
+   /* === BOTONES === */
+   --button-primary-bg: var(--primary-color);
+   --button-primary-bg-hover: var(--primary-color-hover);
+   --button-primary-bg-active: var(--primary-color-active);
+   --button-primary-text: var(--text-color-on-primary);
+
+   --button-secondary-bg: var(--secondary-color);
+   --button-secondary-bg-hover: var(--secondary-color-hover);
+   --button-secondary-text: var(--text-color-on-secondary);
+
+   --button-outline-border: var(--border-color-strong);
+   --button-outline-text: var(--text-color-secondary);
+  --button-outline-bg: var(--surface-section);
+   --button-outline-hover-bg: var(--hover-background-subtle);
+
+   --button-ghost-text: var(--text-color-secondary);
+   --button-ghost-hover-bg: var(--hover-background-subtle);
+   --button-disabled-bg: var(--input-disabled-bg);
+   --button-disabled-text: var(--input-disabled-text);
+   --button-disabled-border: var(--input-disabled-text);
+   --action-bar-gap: 2.25rem;
+
+   /* Button Shadows */
+   --button-shadow-inset: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+   --button-shadow-outer: 0 1px 3px hsla(0, 0%, 0%, 0.2);
+   --button-shadow: var(--button-shadow-inset), var(--button-shadow-outer);
+
+   /* === BADGES === */
+   --badge-default-bg: var(--gray-200);
+   --badge-default-text: var(--gray-900);
+   --badge-default-border: var(--gray-400);
+   --badge-primary-bg: var(--brand-primary-700);
+   --badge-primary-text: var(--gray-0);
+   --badge-primary-border: var(--brand-primary-800);
+   --badge-secondary-bg: var(--brand-secondary-700);
+   --badge-secondary-text: var(--gray-0);
+   --badge-secondary-border: var(--brand-secondary-800);
+   --badge-success-bg: var(--green-700);
+   --badge-success-text: var(--gray-0);
+   --badge-success-border: var(--green-800);
+   --badge-warning-bg: var(--orange-700);
+   --badge-warning-text: var(--gray-0);
+   --badge-warning-border: var(--orange-800);
+   --badge-danger-bg: var(--red-700);
+   --badge-danger-text: var(--gray-0);
+   --badge-danger-border: var(--red-800);
+   --badge-info-bg: var(--blue-700);
+   --badge-info-text: var(--gray-0);
+   --badge-info-border: var(--blue-800);
+   --badge-outline-bg: transparent;
+   --badge-outline-text: var(--gray-800);
+   --badge-outline-border: var(--gray-400);
+
+   /* === CHIPS === */
+   --chip-default-bg: var(--gray-100);
+   --chip-default-text: var(--gray-800);
+   --chip-default-border: var(--gray-300);
+   --chip-primary-bg: var(--brand-primary-100);
+   --chip-primary-text: var(--brand-primary-900);
+   --chip-primary-border: var(--brand-primary-300);
+   --chip-secondary-bg: var(--brand-secondary-100);
+   --chip-secondary-text: var(--brand-secondary-900);
+   --chip-secondary-border: var(--brand-secondary-300);
+   --chip-success-bg: var(--green-100);
+   --chip-success-text: var(--green-900);
+   --chip-success-border: var(--green-300);
+   --chip-warning-bg: var(--orange-100);
+   --chip-warning-text: var(--orange-900);
+   --chip-warning-border: var(--orange-300);
+   --chip-error-bg: var(--red-100);
+   --chip-error-text: var(--red-900);
+   --chip-error-border: var(--red-300);
+   --chip-info-bg: var(--blue-100);
+   --chip-info-text: var(--blue-900);
+   --chip-info-border: var(--blue-300);
+   --chip-outline-bg: transparent;
+   --chip-outline-text: var(--gray-800);
+   --chip-outline-border: var(--gray-400);
+
+   /* === TOOLTIPS === */
+   --tooltip-bg: var(--gray-900);
+   --tooltip-text: var(--gray-0);
+   --tooltip-border: var(--gray-800);
+   --tooltip-shadow: var(--shadow-lg);
+
+   /* === DROPDOWNS / SELECT === */
+   --dropdown-bg: var(--surface-background);
+   --dropdown-border: var(--border-color);
+   --dropdown-shadow: var(--shadow-dropdown);
+   --dropdown-item-hover: var(--hover-background-subtle);
+   --dropdown-item-selected: var(--selected-background);
+   --select2-min-width: 15rem;
+
+   /* === NG-SELECT (específico del proyecto) === */
+   --ng-select-border: var(--border-color-strong);
+   --ng-select-shadow: var(--shadow-sm);
+   --ng-select-hover-bg: var(--brand-primary-50);
+   --ng-select-hover-shadow: inset 0 0 0 2px var(--info-color);
+   --ng-select-selected-bg: var(--brand-primary-50);
+
+   /* === MODALES === */
+   --modal-bg: var(--surface-background);
+   --modal-overlay: var(--surface-overlay);
+   --modal-shadow: var(--shadow-xl);
+   --modal-header-bg: var(--surface-section);
+   --modal-footer-bg: var(--surface-section);
+   --modal-border: var(--border-color-light);
+   --size-dialog-wide: 53.125rem;
+   --crud-dialog-max-width-sm: 32rem;
+   --crud-dialog-max-width-md: 42rem;
+   --crud-dialog-max-width-lg: 48rem;
+   --crud-dialog-max-width-xl: 58rem;
+   --crud-dialog-max-height: calc(100dvh - var(--space-8));
+   --crud-dialog-padding: 0;
+
+   /* === THERMAL RECEIPT === */
+   --receipt-panel-background: var(--surface-background);
+   --receipt-panel-border: var(--border-color);
+   --receipt-panel-detail-background: var(--surface-section);
+   --receipt-panel-emphasis: var(--primary-color);
+   --receipt-panel-shadow: var(--shadow-sm);
+   --print-document-background: var(--surface-background);
+   --print-document-border: var(--border-color);
+   --print-document-detail-background: var(--surface-section);
+   --print-document-accent: var(--primary-color);
+   --print-document-shadow: var(--shadow-sm);
+   --print-document-paper-background: var(--gray-0);
+   --print-document-paper-color: var(--gray-950);
+   --print-document-muted-color: var(--gray-700);
+   --print-document-border-color: var(--gray-300);
+   --print-document-accent-color: var(--brand-primary-700);
+   --print-document-font-family: Arial, sans-serif;
+   --receipt-paper-width: 58mm;
+   --receipt-printable-width: 48mm;
+   --receipt-print-padding: 1mm;
+   --receipt-print-background: #ffffff;
+   --receipt-print-color: #000000;
+   --receipt-print-font-family: 'Courier New', Courier, monospace;
+   --receipt-print-font-size: 7pt;
+   --receipt-print-font-weight: var(--font-weight-title);
+   --receipt-print-letter-spacing: 0;
+   --receipt-print-line-height: 1.25;
+
+   /* === ALERTS === */
+   --alert-info-bg: var(--info-color-lighter);
+   --alert-info-border: var(--info-color);
+   --alert-info-text: var(--info-color-text);
+   --alert-success-bg: var(--success-color-lighter);
+   --alert-success-border: var(--success-color);
+   --alert-success-text: var(--success-color-text);
+   --alert-warning-bg: var(--warning-color-lighter);
+   --alert-warning-border: var(--warning-color);
+   --alert-warning-text: var(--warning-color-text);
+   --alert-danger-bg: var(--danger-color-lighter);
+   --alert-danger-border: var(--danger-color);
+   --alert-danger-text: var(--danger-color-text);
+   --alert-flow-gap: 2.25rem;
+   --alert-flow-gap-compact: var(--space-4);
+
+   /* === SCROLLBAR === */
+   --scrollbar-track: color-mix(in srgb, var(--info-color), transparent 92%);
+   --scrollbar-thumb: color-mix(in srgb, var(--info-color), transparent 68%);
+   --scrollbar-thumb-hover: color-mix(in srgb, var(--info-color), transparent 48%);
+
+   /* === LOADER / SPINNER === */
+   --loader-border: var(--gray-300);
+   --loader-spinner: var(--accent-color);
+   --loader-gradient-start: var(--brand-accent-300);
+   --loader-gradient-end: var(--brand-accent-500);
+
+   /* Standardized Loader Ramp: Sapphire Cobalt (Primary) -> Arctic Teal (Accent) -> Imperial Gold (Secondary) */
+   --loader-gradient-1: var(--brand-primary-600);
+   --loader-gradient-2: var(--brand-primary-400);
+   --loader-gradient-3: var(--brand-accent-500);
+   --loader-gradient-4: var(--brand-secondary-400);
+   --loader-gradient-5: var(--brand-secondary-500);
+
+   /* === TABS === */
+   --tab-bg: transparent;
+   --tab-text: var(--text-color-secondary);
+   --tab-hover-bg: var(--hover-background-subtle);
+   --tab-active-bg: var(--surface-background);
+   --tab-active-text: var(--primary-color);
+   --tab-active-border: var(--primary-color);
+   --tab-border: var(--border-color-light);
+
+   /* === BREADCRUMBS === */
+   --breadcrumb-text: var(--text-color-muted);
+   --breadcrumb-separator: var(--gray-400);
+   --breadcrumb-active: var(--text-color);
+   --breadcrumb-hover: var(--primary-color);
+
+   /* === PAGINATION === */
+   --pagination-wrapper-bg: var(--surface-section);
+   --pagination-wrapper-border: var(--border-color);
+   --pagination-bg: var(--surface-background);
+   --pagination-text: var(--text-color);
+   --pagination-accent-text: var(--primary-color);
+   --pagination-hover-bg: var(--brand-primary-50);
+   --pagination-hover-text: var(--primary-color);
+   --pagination-hover-border: var(--primary-color);
+   --pagination-active-bg: var(--primary-color);
+   --pagination-active-text: var(--text-color-on-primary);
+   --pagination-active-border: var(--primary-color-dark);
+   --pagination-active-shadow: var(--shadow-glow-primary);
+   --pagination-disabled-bg: var(--input-disabled-bg);
+   --pagination-disabled-text: var(--input-disabled-text);
+   --pagination-border: var(--border-color-strong);
+   --pagination-badge-bg: var(--brand-primary-50);
+   --pagination-badge-border: var(--brand-primary-200);
+   --pagination-card-accent-border: var(--brand-primary-300);
+   --pagination-card-active-bg: var(--brand-primary-600);
+   --pagination-card-active-border: var(--brand-secondary-500);
+   --pagination-page-size-inline-size: 6rem;
+
+   /* === PROGRESS BAR === */
+   --progress-bg: var(--gray-100);
+   --progress-default: var(--gray-500);
+   --progress-fill: var(--primary-color);
+   --progress-success: var(--green-700);
+   --progress-warning: var(--orange-700);
+   --progress-danger: var(--red-600);
+
+   /* === SWITCH / TOGGLE === */
+   --switch-bg-off: var(--gray-300);
+   --switch-bg-on: var(--primary-color);
+   --switch-thumb: var(--gray-0);
+   --switch-disabled-bg: var(--gray-200);
+
+   /* === AVATAR === */
+   --avatar-bg: var(--primary-color-lighter);
+   --avatar-text: var(--primary-color-dark);
+   --avatar-border: var(--border-color-light);
+
+   /* === STEPPER === */
+   --stepper-active-bg: var(--brand-primary-50);
+   --stepper-active-border: var(--brand-primary-300);
+   --stepper-active-text: var(--primary-color);
+   --stepper-active-description: var(--text-color-secondary);
+   --stepper-active-indicator-border: var(--button-primary-bg);
+   --stepper-active-hover-bg: var(--brand-primary-100);
+   --stepper-active-hover-border: var(--brand-primary-400);
+   --stepper-active-hover-text: var(--primary-color-text);
+   --stepper-active-hover-description: var(--text-color);
+   --stepper-active-hover-indicator-bg: var(--brand-primary-600);
+   --stepper-active-hover-indicator-border: var(--brand-primary-600);
+   --stepper-active-hover-indicator-text: var(--button-primary-text);
+   --stepper-hover-bg: rgba(17, 24, 39, 0.025);
+   --stepper-hover-border: rgba(17, 24, 39, 0.06);
+   --stepper-hover-text: var(--text-color);
+   --stepper-hover-description: var(--text-color-secondary);
+   --stepper-hover-indicator-bg: var(--surface-background);
+   --stepper-hover-indicator-border: var(--border-color-strong);
+   --stepper-completed-hover-bg: rgba(17, 24, 39, 0.025);
+   --stepper-completed-hover-border: rgba(17, 24, 39, 0.06);
+   --stepper-completed-hover-text: var(--text-color);
+   --stepper-completed-hover-description: var(--text-color-secondary);
+   --stepper-completed-hover-indicator-bg: var(--success-color);
+   --stepper-completed-hover-indicator-border: var(--success-color-hover);
+   --stepper-completed-hover-indicator-text: var(--gray-900);
+
+   /* === SKELETON === */
+   --skeleton-bg: var(--gray-200);
+   --skeleton-shimmer: var(--gray-100);
+   --skeleton-rectangular-block-size: 8rem;
+   --skeleton-card-media-block-size: clamp(5rem, 30vw, 8.75rem);
+   --skeleton-card-title-inline-size: 80%;
+   --skeleton-card-line-inline-size: 60%;
+   --skeleton-card-line-short-inline-size: 40%;
+   --skeleton-avatar-size: var(--space-7);
+   --skeleton-avatar-title-inline-size: 7.5rem;
+   --skeleton-avatar-subtitle-inline-size: 5rem;
+
+   /* === COMPARISON CHART === */
+   --comparison-chart-track-bg: var(--gray-100);
+   --comparison-chart-neutral-start: var(--gray-500);
+   --comparison-chart-neutral-end: var(--gray-600);
+   --comparison-chart-brand-start: var(--primary-color);
+   --comparison-chart-brand-end: var(--primary-color-hover);
+   --comparison-chart-accent-start: var(--brand-accent-600);
+   --comparison-chart-accent-end: var(--brand-accent-700);
+   --comparison-chart-info-start: var(--info-color);
+   --comparison-chart-info-end: var(--info-color-dark);
+   --comparison-chart-success-start: var(--success-color-dark);
+   --comparison-chart-success-end: var(--green-800);
+   --comparison-chart-warning-start: var(--warning-color-hover);
+   --comparison-chart-warning-end: var(--orange-700);
+   --comparison-chart-danger-start: var(--danger-color);
+   --comparison-chart-danger-end: var(--danger-color-hover);
+
+   /* === AUTH BANNER === */
+   --auth-banner-bg-start: var(--brand-primary-900);
+   --auth-banner-bg-end: var(--brand-primary-700);
+   --auth-banner-text: var(--gray-0);
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   🌙 TEMA OSCURO - Componentes
+   ───────────────────────────────────────────────────────────────────────────── */
+[data-theme="dark"],
+.theme-dark:not([data-theme="brand-dark"]),
+html.dark:not([data-theme="brand-dark"]) {
+
+  /* === CHAPA DE ENTORNO (atoms/version) ===
+     QA y STAGING no tienen tono en la paleta semantica, y con razon: exito,
+     aviso, peligro e informacion nombran VEREDICTOS, no entornos. El violeta
+     vive aqui, con el resto de tokens de componente, y no en el CSS del propio
+     componente: el tema se resuelve en un solo sitio. */
+  --version-qa-fill: var(--purple-400);
+  --version-qa-surface: var(--purple-900);
+  --version-qa-border: var(--purple-800);
+  --version-qa-text: var(--purple-300);
+   /* === NAVEGACIÓN === */
+   --nav-bg: var(--surface-section);
+   /* Sub BG: #2a3556 */
+   --nav-text: var(--text-color);
+   --nav-text-hover: var(--primary-color);
+   --nav-border: var(--border-color);
+   --nav-item-hover-bg: var(--hover-background-subtle);
+   --nav-item-active-bg: var(--primary-color-lighter);
+   --nav-item-active-text: var(--primary-color-text);
+   --nav-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+
+   /* === SIDEBAR === */
+   --sidebar-bg: var(--surface-section);
+   /* Sub BG: #2a3556 */
+   --sidebar-text: var(--text-color-secondary);
+   --sidebar-heading: var(--text-color);
+   --sidebar-border: var(--border-color);
+   --sidebar-item-hover: var(--hover-background-subtle);
+   --sidebar-item-active: var(--primary-color-lighter);
+
+   /* === CARDS === */
+   --card-bg: var(--surface-background);
+   /* Layer BG: #1b2440 */
+   --card-border: var(--border-color);
+   --card-header-bg: var(--surface-section);
+   --card-footer-bg: var(--surface-section);
+   --card-shadow: var(--shadow-lg);
+
+   /* === TABLAS (dark overrides) === */
+   --table-color-background:    var(--surface-background);
+   --table-color-stripe:        var(--surface-section);
+   --table-color-hover:         var(--hover-background);
+   --table-color-border:        var(--border-color-strong);
+   --table-color-border-light:  rgba(255, 255, 255, 0.05);
+   --table-color-text:          var(--text-color-secondary);
+   --table-color-primary:       var(--primary-color);
+   --table-header-color:        var(--text-color);
+   --table-header-bg:           var(--surface-section);
+   --table-header-border-color: var(--border-color);
+   --table-header-shadow:       none;
+   --table-row-hover-shadow:    0 4px 16px rgba(0, 0, 0, 0.3), 0 2px 6px rgba(0, 0, 0, 0.2);
+   --table-row-hover-transform: translateY(-2px);
+   --table-card-shadow:         var(--shadow-md);
+
+   /* Legado dark */
+   --table-bg:              var(--surface-background);
+   --table-header-start:    var(--brand-primary-700);
+   --table-header-end:      var(--brand-secondary-700);
+   --table-header-text:     var(--text-color);
+   --table-cell-text:       var(--text-color-secondary);
+   --table-row-alt-bg:      var(--surface-section);
+   --table-row-hover:       var(--hover-background);
+   --table-row-selected:    var(--selected-background);
+   --table-border:          var(--border-color-strong);
+   --table-stripe-bg:       var(--surface-section);
+   --table-stripe-alt:      var(--surface-ground);
+   --table-hover-bg:        var(--hover-background);
+   --table-hover-secondary: var(--hover-background-subtle);
+   --table-row-transition:  background-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+
+   /* === CHARTS (dark overrides) === */
+   --chart-title-color:       var(--text-color);
+   --chart-text-color:        var(--text-color-secondary);
+   --chart-tooltip-bg:        var(--surface-elevated);
+   --chart-tooltip-text:      var(--text-color);
+   --chart-tooltip-border:    var(--border-color-strong);
+   --chart-grid-color:        rgba(255, 255, 255, 0.08);
+   --chart-axis-border-color: rgba(255, 255, 255, 0.16);
+   --surface-color:           var(--surface-background);
+   --chart-datalabel-on-light: var(--gray-900);
+   --chart-datalabel-on-dark:  var(--gray-0);
+   --chart-arc-shadow-color:  rgba(0, 0, 0, 0.45);
+   --chart-color-1:  var(--brand-primary-400);
+   --chart-color-2:  #14b8a6;
+   --chart-color-3:  var(--brand-secondary-500);
+   --chart-color-4:  #10b981;
+   --chart-color-5:  #818cf8;
+   --chart-color-6:  #fb7185;
+   --chart-color-7:  var(--blue-400);
+   --chart-color-8:  var(--orange-400);
+   --chart-color-9:  #f87171;
+   --chart-color-10: #94a3b8;
+   --chart-tone-neutral: #94a3b8;
+   --chart-tone-brand:   var(--primary-color);
+   --chart-tone-accent:  var(--accent-color);
+   --chart-tone-info:    var(--info-color-hover);
+   --chart-tone-success: #10b981;
+   --chart-tone-warning: var(--brand-secondary-500);
+   --chart-tone-danger:  #f87171;
+   --chart-series-primary:   var(--chart-tone-brand);
+   --chart-series-secondary: var(--chart-tone-accent);
+   --chart-series-positive:  var(--chart-tone-success);
+   --chart-series-info:      var(--chart-tone-info);
+   --chart-series-warning:   var(--chart-tone-warning);
+   --chart-series-danger:    var(--chart-tone-danger);
+   --chart-series-neutral:   var(--chart-tone-neutral);
+   --chart-label-color:    var(--text-color-secondary);
+
+   /* === FORMULARIOS / INPUTS === */
+   --input-bg: var(--surface-background);
+   /* Layer BG (Typical for inputs in dark) or Sub BG */
+   --input-border: var(--gray-600);
+   /* Más visible en oscuro */
+   --input-border-width: 2.5px;
+   --input-border-hover: var(--info-color);
+   /* Igual que select2: hover usa color primario para look&feel uniforme */
+   --input-border-focus: var(--info-color);
+   --input-placeholder: var(--text-color-placeholder);
+   --field-label-color: var(--text-color);
+   --field-label-color-resting: var(--text-color-secondary);
+   --field-label-color-floated: var(--info-color-text);
+   --field-label-color-error: var(--danger-color-text);
+   --input-text: var(--text-color);
+   --input-shadow: 0 0 0 1px rgba(255, 255, 255, 0.12), 0 2px 6px rgba(0, 0, 0, 0.40);
+   /* DARK: anillo blanco nítido + sombra oscura — visible sobre fondos oscuros */
+   --input-shadow-hover: 0 0 0 1.5px rgba(255, 255, 255, 0.22), 0 4px 12px rgba(0, 0, 0, 0.55);
+   /* DARK: anillo blanco más fuerte en hover */
+   --input-shadow-focus: 0 0 0 3px rgba(10, 132, 255, 0.35);
+   /* DARK: glow azul al enfocar inputs/selects */
+   --form-row-gap: 2.25rem;
+   /* DARK: este bloque no declaraba los tokens de deshabilitado, así que
+      heredaba los del bloque claro —anclado a `:root`— y pintaba el campo con
+      gray-100 (#F3F4F6, casi blanco) sobre una página #1e1e1e: un bloque pálido
+      con texto a 2.05:1. Se hunde en lugar de iluminarse, como el resto del
+      tema. gray-400 sobre surface-sunken da 6.99:1. */
+   --input-disabled-bg: var(--surface-sunken);
+   --input-disabled-text: var(--gray-400);
+
+   /* === BOTONES === */
+   --button-primary-bg: var(--brand-primary-500);
+   --button-primary-bg-hover: var(--brand-primary-400);
+   --button-primary-bg-active: var(--brand-primary-300);
+   --button-primary-text: var(--gray-0);
+
+   --button-secondary-bg: var(--brand-secondary-500);
+   --button-secondary-bg-hover: var(--brand-secondary-400);
+   --button-secondary-text: var(--text-color-on-secondary);
+
+   --button-outline-border: var(--border-color-strong);
+   --button-outline-text: var(--text-color-secondary);
+  --button-outline-bg: var(--surface-section);
+   --button-outline-hover-bg: var(--hover-background-subtle);
+
+   --button-ghost-text: var(--text-color-secondary);
+   --button-ghost-hover-bg: var(--hover-background-subtle);
+   --button-disabled-bg: var(--input-disabled-bg);
+   --button-disabled-text: var(--input-disabled-text);
+   --button-disabled-border: var(--input-disabled-text);
+
+   /* Button Shadows (Dark Mode - more subtle) */
+   --button-shadow-inset: inset 0 1px 0 hsla(224, 60%, 70%, 0.4);
+   --button-shadow-outer: 0 1px 4px hsla(0, 0%, 0%, 0.4);
+   --button-shadow: var(--button-shadow-inset), var(--button-shadow-outer);
+
+   /* === BADGES === */
+   --badge-default-bg: var(--surface-elevated);
+   --badge-default-text: var(--gray-100);
+   --badge-default-border: var(--gray-600);
+   --badge-primary-bg: var(--brand-primary-700);
+   --badge-primary-text: var(--gray-0);
+   --badge-primary-border: var(--brand-primary-500);
+   --badge-secondary-bg: var(--brand-secondary-700);
+   --badge-secondary-text: var(--gray-0);
+   --badge-secondary-border: var(--brand-secondary-500);
+   --badge-success-bg: var(--green-700);
+   --badge-success-text: var(--gray-0);
+   --badge-success-border: var(--green-500);
+   --badge-warning-bg: var(--orange-700);
+   --badge-warning-text: var(--gray-0);
+   --badge-warning-border: var(--orange-500);
+   --badge-danger-bg: var(--red-700);
+   --badge-danger-text: var(--gray-0);
+   --badge-danger-border: var(--red-500);
+   --badge-info-bg: var(--blue-700);
+   --badge-info-text: var(--gray-0);
+   --badge-info-border: var(--blue-500);
+   --badge-outline-bg: transparent;
+   --badge-outline-text: var(--gray-100);
+   --badge-outline-border: var(--gray-500);
+
+   /* === CHIPS === */
+   --chip-default-bg: var(--surface-elevated);
+   --chip-default-text: var(--gray-100);
+   --chip-default-border: var(--gray-600);
+   --chip-primary-bg: var(--brand-primary-900);
+   --chip-primary-text: var(--brand-primary-100);
+   --chip-primary-border: var(--brand-primary-600);
+   --chip-secondary-bg: var(--brand-secondary-900);
+   --chip-secondary-text: var(--brand-secondary-100);
+   --chip-secondary-border: var(--brand-secondary-600);
+   --chip-success-bg: var(--green-900);
+   --chip-success-text: var(--green-100);
+   --chip-success-border: var(--green-600);
+   --chip-warning-bg: var(--orange-900);
+   --chip-warning-text: var(--orange-100);
+   --chip-warning-border: var(--orange-600);
+   --chip-error-bg: var(--red-900);
+   --chip-error-text: var(--red-100);
+   --chip-error-border: var(--red-600);
+   --chip-info-bg: var(--blue-900);
+   --chip-info-text: var(--blue-100);
+   --chip-info-border: var(--blue-600);
+   --chip-outline-bg: transparent;
+   --chip-outline-text: var(--gray-100);
+   --chip-outline-border: var(--gray-500);
+
+   /* === TOOLTIPS === */
+   --tooltip-bg: var(--surface-elevated);
+   --tooltip-text: var(--text-color);
+   --tooltip-border: var(--border-color-strong);
+   --tooltip-shadow: var(--shadow-lg);
+
+   /* === DROPDOWNS / SELECT === */
+   --dropdown-bg: var(--surface-elevated);
+   /* Sub BG often used for popovers */
+   --dropdown-border: var(--border-color);
+   --dropdown-shadow: var(--shadow-dropdown);
+   --dropdown-item-hover: var(--hover-background-subtle);
+   --dropdown-item-selected: var(--selected-background);
+
+   /* === NG-SELECT === */
+   --ng-select-border: var(--border-color-strong);
+   /* Fixed hardcoded #404040 */
+   --ng-select-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+   --ng-select-hover-bg: var(--hover-background);
+   --ng-select-hover-shadow: inset 0 0 0 2px var(--info-color);
+   --ng-select-selected-bg: var(--selected-background);
+
+   /* === MODALES === */
+   --modal-bg: var(--surface-background);
+   /* Layer BG */
+   --modal-overlay: var(--surface-overlay);
+   --modal-shadow: var(--shadow-xl);
+   --modal-header-bg: var(--surface-section);
+   --modal-footer-bg: var(--surface-section);
+   --modal-border: var(--border-color);
+   --crud-dialog-max-width-sm: 32rem;
+   --crud-dialog-max-width-md: 42rem;
+   --crud-dialog-max-width-lg: 48rem;
+   --crud-dialog-max-width-xl: 58rem;
+   --crud-dialog-max-height: calc(100dvh - var(--space-8));
+   --crud-dialog-padding: 0;
+
+   /* === ALERTS === */
+   --alert-info-bg: var(--info-color-lighter);
+   --alert-info-border: var(--info-color);
+   --alert-info-text: var(--blue-300);
+   --alert-success-bg: var(--success-color-lighter);
+   --alert-success-border: var(--success-color);
+   --alert-success-text: var(--success-color-text);
+   --alert-warning-bg: var(--warning-color-lighter);
+   --alert-warning-border: var(--warning-color);
+   --alert-warning-text: var(--warning-color-text);
+   --alert-danger-bg: var(--danger-color-lighter);
+   --alert-danger-border: var(--danger-color);
+   --alert-danger-text: var(--red-300);
+
+   /* === SCROLLBAR === */
+   --scrollbar-track: color-mix(in srgb, var(--info-color), transparent 88%);
+   --scrollbar-thumb: color-mix(in srgb, var(--info-color), transparent 60%);
+   --scrollbar-thumb-hover: color-mix(in srgb, var(--info-color), transparent 40%);
+
+   /* === LOADER / SPINNER === */
+   --loader-border: var(--border-color-strong);
+   /* Fixed hardcoded #404040 */
+   --loader-spinner: var(--brand-accent-400);
+
+   /* Dark Mode Ramp: Lighter/Brighter variants */
+   --loader-gradient-1: var(--brand-primary-400);
+   --loader-gradient-2: var(--brand-primary-300);
+   --loader-gradient-3: var(--brand-accent-300);
+   --loader-gradient-4: var(--brand-secondary-300);
+   --loader-gradient-5: var(--brand-secondary-400);
+
+   /* === TABS === */
+   --tab-bg: transparent;
+   --tab-text: var(--text-color-secondary);
+   --tab-hover-bg: var(--hover-background-subtle);
+   --tab-active-bg: var(--surface-elevated);
+   --tab-active-text: var(--primary-color);
+   --tab-active-border: var(--primary-color);
+   --tab-border: var(--border-color);
+
+   /* === BREADCRUMBS === */
+   --breadcrumb-text: var(--text-color-muted);
+   --breadcrumb-separator: var(--gray-600);
+   --breadcrumb-active: var(--text-color);
+   --breadcrumb-hover: var(--primary-color);
+
+   /* === PAGINATION === */
+   --pagination-wrapper-bg: var(--surface-section);
+   --pagination-wrapper-border: var(--border-color-strong);
+   --pagination-bg: var(--surface-elevated);
+   --pagination-text: var(--text-color);
+   --pagination-accent-text: var(--brand-primary-200);
+   --pagination-hover-bg: var(--brand-primary-800);
+   --pagination-hover-text: var(--brand-primary-100);
+   --pagination-hover-border: var(--brand-primary-300);
+   --pagination-active-bg: var(--brand-primary-A700);
+   --pagination-active-text: var(--gray-0);
+   --pagination-active-border: var(--brand-primary-300);
+   --pagination-active-shadow: var(--shadow-glow-primary);
+   --pagination-disabled-bg: var(--input-disabled-bg);
+   --pagination-disabled-text: var(--input-disabled-text);
+   --pagination-border: var(--border-color-strong);
+   --pagination-badge-bg: var(--brand-primary-800);
+   --pagination-badge-border: var(--brand-primary-400);
+   --pagination-card-accent-border: var(--brand-primary-400);
+   --pagination-card-active-bg: var(--brand-primary-700);
+   --pagination-card-active-border: var(--brand-secondary-400);
+
+   /* === PROGRESS BAR === */
+   --progress-bg: var(--surface-sunken);
+   --progress-default: var(--gray-300);
+   --progress-fill: var(--primary-color);
+   --progress-success: var(--success-color);
+   --progress-warning: var(--warning-color);
+   --progress-danger: var(--danger-color);
+
+   /* === SWITCH / TOGGLE === */
+   --switch-bg-off: var(--gray-600);
+   --switch-bg-on: var(--brand-primary-500);
+   --switch-thumb: var(--gray-0);
+   --switch-disabled-bg: var(--gray-700);
+
+   /* === AVATAR === */
+   --avatar-bg: var(--hover-background);
+   --avatar-text: var(--primary-color);
+   --avatar-border: var(--border-color);
+
+   /* === STEPPER === */
+   --stepper-active-bg: #282828;
+   --stepper-active-border: color-mix(in srgb, var(--primary-color) 52%, transparent);
+   --stepper-active-text: var(--primary-color-text);
+   --stepper-active-description: var(--text-color-secondary);
+   --stepper-active-indicator-border: var(--primary-color);
+   --stepper-active-hover-bg: #2f2f2f;
+   --stepper-active-hover-border: color-mix(in srgb, var(--primary-color) 70%, transparent);
+   --stepper-active-hover-text: var(--brand-primary-200);
+   --stepper-active-hover-description: var(--text-color);
+   --stepper-active-hover-indicator-bg: var(--brand-primary-300);
+   --stepper-active-hover-indicator-border: var(--brand-primary-200);
+   --stepper-active-hover-indicator-text: var(--gray-900);
+   --stepper-hover-bg: rgba(255, 255, 255, 0.025);
+   --stepper-hover-border: rgba(255, 255, 255, 0.055);
+   --stepper-hover-text: var(--text-color);
+   --stepper-hover-description: var(--text-color-secondary);
+   --stepper-hover-indicator-bg: var(--surface-section);
+   --stepper-hover-indicator-border: var(--gray-500);
+   --stepper-completed-hover-bg: rgba(255, 255, 255, 0.025);
+   --stepper-completed-hover-border: rgba(255, 255, 255, 0.055);
+   --stepper-completed-hover-text: var(--text-color);
+   --stepper-completed-hover-description: var(--text-color-secondary);
+   --stepper-completed-hover-indicator-bg: var(--success-color);
+   --stepper-completed-hover-indicator-border: var(--success-color);
+   --stepper-completed-hover-indicator-text: var(--gray-900);
+
+   /* === SKELETON === */
+   --skeleton-bg: var(--gray-700);
+   --skeleton-shimmer: var(--gray-600);
+
+   /* === COMPARISON CHART === */
+   --comparison-chart-track-bg: var(--surface-sunken);
+   --comparison-chart-neutral-start: var(--gray-300);
+   --comparison-chart-neutral-end: var(--gray-400);
+   --comparison-chart-brand-start: var(--primary-color-hover);
+   --comparison-chart-brand-end: var(--primary-color);
+   --comparison-chart-accent-start: var(--accent-color);
+   --comparison-chart-accent-end: #14b8a6;
+   --comparison-chart-info-start: var(--info-color-hover);
+   --comparison-chart-info-end: var(--info-color);
+   --comparison-chart-success-start: var(--success-color-hover);
+   --comparison-chart-success-end: var(--success-color);
+   --comparison-chart-warning-start: var(--orange-300);
+   --comparison-chart-warning-end: var(--warning-color);
+   --comparison-chart-danger-start: var(--danger-color-hover);
+   --comparison-chart-danger-end: var(--danger-color);
+
+   /* === AUTH BANNER === */
+   --auth-banner-bg-start: var(--brand-primary-900);
+   --auth-banner-bg-end: var(--brand-primary-800);
+   --auth-banner-text: var(--gray-0);
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   🌙 TEMA OSCURO CORPORATIVO - Componentes
+   ───────────────────────────────────────────────────────────────────────────── */
+[data-theme="brand-dark"] {
+
+  /* === CHAPA DE ENTORNO (atoms/version) ===
+     QA y STAGING no tienen tono en la paleta semantica, y con razon: exito,
+     aviso, peligro e informacion nombran VEREDICTOS, no entornos. El violeta
+     vive aqui, con el resto de tokens de componente, y no en el CSS del propio
+     componente: el tema se resuelve en un solo sitio. */
+  --version-qa-fill: var(--purple-400);
+  --version-qa-surface: var(--purple-900);
+  --version-qa-border: var(--purple-800);
+  --version-qa-text: var(--purple-300);
+   /* === NAVEGACIÓN === */
+   --nav-bg: var(--surface-section);
+   --nav-text: var(--text-color);
+   --nav-text-hover: var(--primary-color);
+   --nav-border: var(--border-color);
+   --nav-item-hover-bg: var(--hover-background-subtle);
+   --nav-item-active-bg: var(--primary-color-lighter);
+   --nav-item-active-text: var(--primary-color-text);
+   --nav-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+
+   /* === SIDEBAR === */
+   --sidebar-bg: var(--surface-section);
+   --sidebar-text: var(--text-color-secondary);
+   --sidebar-heading: var(--text-color);
+   --sidebar-border: var(--border-color);
+   --sidebar-item-hover: var(--hover-background-subtle);
+   --sidebar-item-active: var(--primary-color-lighter);
+
+   /* === CARDS === */
+   --card-bg: var(--surface-background);
+   --card-border: var(--border-color);
+   --card-header-bg: var(--surface-section);
+   --card-footer-bg: var(--surface-section);
+   --card-shadow: var(--shadow-lg);
+
+   /* === TABLAS (brand-dark overrides) === */
+   --table-color-background:    var(--surface-background);
+   --table-color-stripe:        var(--surface-section);
+   --table-color-hover:         var(--hover-background);
+   --table-color-border:        var(--border-color-strong);
+   --table-color-border-light:  rgba(255, 255, 255, 0.06);
+   --table-color-text:          var(--text-color-secondary);
+   --table-color-primary:       var(--primary-color);
+   --table-header-color:        var(--text-color);
+   --table-header-bg:           var(--surface-section);
+   --table-header-border-color: var(--border-color);
+   --table-header-shadow:       none;
+   --table-row-hover-shadow:    0 4px 16px rgba(0, 0, 0, 0.35), 0 2px 6px rgba(0, 0, 0, 0.25);
+   --table-row-hover-transform: translateY(-2px);
+   --table-card-shadow:         var(--shadow-md);
+
+   /* Legado brand-dark */
+   --table-bg:              var(--surface-background);
+   --table-header-start:    var(--brand-primary-700);
+   --table-header-end:      var(--brand-secondary-700);
+   --table-header-text:     var(--text-color);
+   --table-cell-text:       var(--text-color-secondary);
+   --table-row-alt-bg:      var(--surface-section);
+   --table-row-hover:       var(--hover-background);
+   --table-row-selected:    var(--selected-background);
+   --table-border:          var(--border-color-strong);
+   --table-stripe-bg:       var(--surface-section);
+   --table-stripe-alt:      var(--surface-ground);
+   --table-hover-bg:        var(--hover-background);
+   --table-hover-secondary: var(--hover-background-subtle);
+   --table-row-transition:  background-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+
+   /* === CHARTS (brand-dark overrides) === */
+   --chart-title-color:       var(--text-color);
+   --chart-text-color:        var(--text-color-secondary);
+   --chart-tooltip-bg:        var(--surface-elevated);
+   --chart-tooltip-text:      var(--text-color);
+   --chart-tooltip-border:    rgba(255, 255, 255, 0.20);
+   --chart-grid-color:        rgba(255, 255, 255, 0.08);
+   --chart-axis-border-color: rgba(255, 255, 255, 0.16);
+   --surface-color:           var(--surface-background);
+   --chart-datalabel-on-light: var(--gray-900);
+   --chart-datalabel-on-dark:  var(--gray-0);
+   --chart-arc-shadow-color:  rgba(0, 0, 0, 0.48);
+   --chart-color-1:  var(--brand-primary-400);
+   --chart-color-2:  #14b8a6;
+   --chart-color-3:  var(--brand-secondary-500);
+   --chart-color-4:  #10b981;
+   --chart-color-5:  #818cf8;
+   --chart-color-6:  #fb7185;
+   --chart-color-7:  var(--blue-400);
+   --chart-color-8:  var(--orange-400);
+   --chart-color-9:  #f87171;
+   --chart-color-10: #94a3b8;
+   --chart-tone-neutral: #94a3b8;
+   --chart-tone-brand:   var(--primary-color);
+   --chart-tone-accent:  var(--accent-color);
+   --chart-tone-info:    var(--info-color-hover);
+   --chart-tone-success: #10b981;
+   --chart-tone-warning: var(--brand-secondary-500);
+   --chart-tone-danger:  #f87171;
+   --chart-series-primary:   var(--chart-tone-brand);
+   --chart-series-secondary: var(--chart-tone-accent);
+   --chart-series-positive:  var(--chart-tone-success);
+   --chart-series-info:      var(--chart-tone-info);
+   --chart-series-warning:   var(--chart-tone-warning);
+   --chart-series-danger:    var(--chart-tone-danger);
+   --chart-series-neutral:   var(--chart-tone-neutral);
+   --chart-label-color:    var(--text-color-secondary);
+
+   /* === FORMULARIOS / INPUTS === */
+   --input-bg: var(--surface-background);
+   --input-border: var(--gray-600);
+   --input-border-width: 2.5px;
+   --input-border-hover: var(--info-color);
+   /* Igual que select2: hover usa color primario */
+   --input-border-focus: var(--info-color);
+   --input-placeholder: var(--text-color-placeholder);
+   --field-label-color: var(--text-color);
+   --field-label-color-resting: var(--text-color-secondary);
+   --field-label-color-floated: var(--blue-400);
+   --field-label-color-error: var(--danger-color-text);
+   --input-text: var(--text-color);
+   --input-shadow: 0 0 0 1px rgba(56, 189, 248, 0.18), 0 2px 6px rgba(0, 0, 0, 0.50);
+   /* BRAND-DARK: glow de marca (primary zafiro) + sombra profunda */
+   --input-shadow-hover: 0 0 0 2px rgba(56, 189, 248, 0.38), 0 4px 14px rgba(0, 0, 0, 0.60);
+   /* BRAND-DARK: glow primario más fuerte en hover */
+   --input-shadow-focus: 0 0 0 3px rgba(10, 132, 255, 0.35);
+   /* BRAND-DARK: glow azul al enfocar inputs/selects */
+   --form-row-gap: 2.25rem;
+   --input-disabled-bg: var(--surface-sunken);
+   /* BRAND-DARK: gray-600 sobre surface-sunken (#29324d) daba 1.68:1, el peor
+      de los cuatro temas. gray-400 lo lleva a 4.99:1. */
+   --input-disabled-text: var(--gray-400);
+
+   /* === BOTONES === */
+   --button-primary-bg: var(--brand-primary-500);
+   --button-primary-bg-hover: var(--brand-primary-400);
+   --button-primary-bg-active: var(--brand-primary-300);
+   --button-primary-text: var(--gray-0);
+
+   --button-secondary-bg: var(--brand-secondary-500);
+   --button-secondary-bg-hover: var(--brand-secondary-400);
+   --button-secondary-text: var(--text-color-on-secondary);
+
+   --button-outline-border: var(--border-color-strong);
+   --button-outline-text: var(--text-color-secondary);
+  --button-outline-bg: var(--surface-section);
+   --button-outline-hover-bg: var(--hover-background-subtle);
+
+   --button-ghost-text: var(--text-color-secondary);
+   --button-ghost-hover-bg: var(--hover-background-subtle);
+   --button-disabled-bg: var(--input-disabled-bg);
+   --button-disabled-text: var(--input-disabled-text);
+   --button-disabled-border: var(--input-disabled-text);
+
+   /* Button Shadows (Brand-Dark Mode) */
+   --button-shadow-inset: inset 0 1px 0 hsla(224, 60%, 70%, 0.4);
+   --button-shadow-outer: 0 1px 4px hsla(0, 0%, 0%, 0.4);
+   --button-shadow: var(--button-shadow-inset), var(--button-shadow-outer);
+
+   /* === BADGES === */
+   --badge-default-bg: var(--surface-elevated);
+   --badge-default-text: var(--gray-100);
+   --badge-default-border: var(--gray-600);
+   --badge-primary-bg: var(--brand-primary-700);
+   --badge-primary-text: var(--gray-0);
+   --badge-primary-border: var(--brand-primary-500);
+   --badge-secondary-bg: var(--brand-secondary-700);
+   --badge-secondary-text: var(--gray-0);
+   --badge-secondary-border: var(--brand-secondary-500);
+   --badge-success-bg: var(--green-700);
+   --badge-success-text: var(--gray-0);
+   --badge-success-border: var(--green-500);
+   --badge-warning-bg: var(--orange-700);
+   --badge-warning-text: var(--gray-0);
+   --badge-warning-border: var(--orange-500);
+   --badge-danger-bg: var(--red-700);
+   --badge-danger-text: var(--gray-0);
+   --badge-danger-border: var(--red-500);
+   --badge-info-bg: var(--blue-700);
+   --badge-info-text: var(--gray-0);
+   --badge-info-border: var(--blue-500);
+   --badge-outline-bg: transparent;
+   --badge-outline-text: var(--gray-100);
+   --badge-outline-border: var(--gray-500);
+
+   /* === CHIPS === */
+   --chip-default-bg: var(--surface-elevated);
+   --chip-default-text: var(--gray-100);
+   --chip-default-border: var(--gray-600);
+   --chip-primary-bg: var(--brand-primary-900);
+   --chip-primary-text: var(--brand-primary-100);
+   --chip-primary-border: var(--brand-primary-600);
+   --chip-secondary-bg: var(--brand-secondary-900);
+   --chip-secondary-text: var(--brand-secondary-100);
+   --chip-secondary-border: var(--brand-secondary-600);
+   --chip-success-bg: var(--green-900);
+   --chip-success-text: var(--green-100);
+   --chip-success-border: var(--green-600);
+   --chip-warning-bg: var(--orange-900);
+   --chip-warning-text: var(--orange-100);
+   --chip-warning-border: var(--orange-600);
+   --chip-error-bg: var(--red-900);
+   --chip-error-text: var(--red-100);
+   --chip-error-border: var(--red-600);
+   --chip-info-bg: var(--blue-900);
+   --chip-info-text: var(--blue-100);
+   --chip-info-border: var(--blue-600);
+   --chip-outline-bg: transparent;
+   --chip-outline-text: var(--gray-100);
+   --chip-outline-border: var(--gray-500);
+
+   /* === TOOLTIPS === */
+   --tooltip-bg: var(--surface-elevated);
+   --tooltip-text: var(--gray-50);
+   --tooltip-border: var(--border-color-strong);
+   --tooltip-shadow: var(--shadow-lg);
+
+   /* === DROPDOWNS / SELECT === */
+   --dropdown-bg: var(--surface-elevated);
+   --dropdown-border: var(--border-color);
+   --dropdown-shadow: var(--shadow-dropdown);
+   --dropdown-item-hover: var(--hover-background-subtle);
+   --dropdown-item-selected: var(--selected-background);
+
+   /* === NG-SELECT === */
+   --ng-select-border: var(--border-color-strong);
+   --ng-select-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+   --ng-select-hover-bg: var(--hover-background);
+   --ng-select-hover-shadow: inset 0 0 0 2px var(--info-color);
+   --ng-select-selected-bg: var(--selected-background);
+
+   /* === MODALES === */
+   --modal-bg: var(--surface-background);
+   --modal-overlay: var(--surface-overlay);
+   --modal-shadow: var(--shadow-xl);
+   --modal-header-bg: var(--surface-section);
+   --modal-footer-bg: var(--surface-section);
+   --modal-border: var(--border-color);
+   --crud-dialog-max-width-sm: 32rem;
+   --crud-dialog-max-width-md: 42rem;
+   --crud-dialog-max-width-lg: 48rem;
+   --crud-dialog-max-width-xl: 58rem;
+   --crud-dialog-max-height: calc(100dvh - var(--space-8));
+   --crud-dialog-padding: 0;
+
+   /* === ALERTS === */
+   --alert-info-bg: var(--info-color-lighter);
+   --alert-info-border: var(--info-color);
+   --alert-info-text: var(--blue-300);
+   --alert-success-bg: var(--success-color-lighter);
+   --alert-success-border: var(--success-color);
+   --alert-success-text: var(--success-color-text);
+   --alert-warning-bg: var(--warning-color-lighter);
+   --alert-warning-border: var(--warning-color);
+   --alert-warning-text: var(--warning-color-text);
+   --alert-danger-bg: var(--danger-color-lighter);
+   --alert-danger-border: var(--danger-color);
+   --alert-danger-text: var(--red-300);
+
+   /* === SCROLLBAR === */
+   --scrollbar-track: color-mix(in srgb, var(--info-color), transparent 88%);
+   --scrollbar-thumb: color-mix(in srgb, var(--info-color), transparent 55%);
+   --scrollbar-thumb-hover: color-mix(in srgb, var(--info-color), transparent 35%);
+
+   /* === LOADER / SPINNER === */
+   --loader-border: var(--border-color-strong);
+   --loader-spinner: var(--brand-accent-400);
+   --loader-gradient-1: var(--brand-primary-400);
+   --loader-gradient-2: var(--brand-primary-300);
+   --loader-gradient-3: var(--brand-accent-300);
+   --loader-gradient-4: var(--brand-secondary-300);
+   --loader-gradient-5: var(--brand-secondary-400);
+
+   /* === TABS === */
+   --tab-bg: transparent;
+   --tab-text: var(--text-color-secondary);
+   --tab-hover-bg: var(--hover-background-subtle);
+   --tab-active-bg: var(--surface-elevated);
+   --tab-active-text: var(--primary-color);
+   --tab-active-border: var(--primary-color);
+   --tab-border: var(--border-color);
+
+   /* === BREADCRUMBS === */
+   --breadcrumb-text: var(--text-color-muted);
+   --breadcrumb-separator: var(--gray-600);
+   --breadcrumb-active: var(--text-color);
+   --breadcrumb-hover: var(--primary-color);
+
+   /* === PAGINATION === */
+   --pagination-wrapper-bg: var(--surface-section);
+   --pagination-wrapper-border: var(--border-color-strong);
+   --pagination-bg: var(--surface-elevated);
+   --pagination-text: var(--text-color);
+   --pagination-accent-text: var(--brand-primary-200);
+   --pagination-hover-bg: var(--brand-primary-800);
+   --pagination-hover-text: var(--brand-primary-100);
+   --pagination-hover-border: var(--brand-primary-300);
+   --pagination-active-bg: var(--brand-primary-A700);
+   --pagination-active-text: var(--gray-0);
+   --pagination-active-border: var(--brand-primary-300);
+   --pagination-active-shadow: var(--shadow-glow-primary);
+   --pagination-disabled-bg: var(--input-disabled-bg);
+   --pagination-disabled-text: var(--input-disabled-text);
+   --pagination-border: var(--border-color-strong);
+   --pagination-badge-bg: var(--brand-primary-800);
+   --pagination-badge-border: var(--brand-primary-400);
+   --pagination-card-accent-border: var(--brand-primary-400);
+   --pagination-card-active-bg: var(--brand-primary-700);
+   --pagination-card-active-border: var(--brand-secondary-400);
+
+   /* === PROGRESS BAR === */
+   --progress-bg: var(--surface-ground);
+   --progress-default: var(--gray-300);
+   --progress-fill: var(--primary-color);
+   --progress-success: var(--success-color);
+   --progress-warning: var(--warning-color);
+   --progress-danger: var(--danger-color);
+
+   /* === SWITCH / TOGGLE === */
+   --switch-bg-off: var(--gray-600);
+   --switch-bg-on: var(--brand-primary-500);
+   --switch-thumb: var(--gray-0);
+   --switch-disabled-bg: var(--gray-700);
+
+   /* === AVATAR === */
+   --avatar-bg: var(--hover-background);
+   --avatar-text: var(--primary-color);
+   --avatar-border: var(--border-color);
+
+   /* === STEPPER === */
+   --stepper-active-bg: #252e49;
+   --stepper-active-border: color-mix(in srgb, var(--primary-color) 52%, transparent);
+   --stepper-active-text: var(--primary-color-text);
+   --stepper-active-description: var(--text-color-secondary);
+   --stepper-active-indicator-border: var(--primary-color);
+   --stepper-active-hover-bg: #2c3758;
+   --stepper-active-hover-border: color-mix(in srgb, var(--primary-color) 70%, transparent);
+   --stepper-active-hover-text: var(--brand-primary-200);
+   --stepper-active-hover-description: var(--text-color);
+   --stepper-active-hover-indicator-bg: var(--brand-primary-300);
+   --stepper-active-hover-indicator-border: var(--brand-primary-200);
+   --stepper-active-hover-indicator-text: var(--gray-900);
+   --stepper-hover-bg: rgba(255, 255, 255, 0.025);
+   --stepper-hover-border: rgba(255, 255, 255, 0.055);
+   --stepper-hover-text: var(--text-color);
+   --stepper-hover-description: var(--text-color-secondary);
+   --stepper-hover-indicator-bg: var(--surface-section);
+   --stepper-hover-indicator-border: var(--gray-500);
+   --stepper-completed-hover-bg: rgba(255, 255, 255, 0.025);
+   --stepper-completed-hover-border: rgba(255, 255, 255, 0.055);
+   --stepper-completed-hover-text: var(--text-color);
+   --stepper-completed-hover-description: var(--text-color-secondary);
+   --stepper-completed-hover-indicator-bg: var(--success-color);
+   --stepper-completed-hover-indicator-border: var(--success-color);
+   --stepper-completed-hover-indicator-text: var(--gray-900);
+
+   /* === SKELETON === */
+   --skeleton-bg: var(--gray-700);
+   --skeleton-shimmer: var(--gray-600);
+
+   /* === COMPARISON CHART === */
+   --comparison-chart-track-bg: var(--surface-ground);
+   --comparison-chart-neutral-start: var(--gray-300);
+   --comparison-chart-neutral-end: var(--gray-400);
+   --comparison-chart-brand-start: var(--primary-color-hover);
+   --comparison-chart-brand-end: var(--primary-color);
+   --comparison-chart-accent-start: var(--accent-color);
+   --comparison-chart-accent-end: #14b8a6;
+   --comparison-chart-info-start: var(--info-color-hover);
+   --comparison-chart-info-end: var(--info-color);
+   --comparison-chart-success-start: var(--success-color-hover);
+   --comparison-chart-success-end: var(--success-color);
+   --comparison-chart-warning-start: var(--orange-300);
+   --comparison-chart-warning-end: var(--warning-color);
+   --comparison-chart-danger-start: var(--danger-color-hover);
+   --comparison-chart-danger-end: var(--danger-color);
+
+   /* === AUTH BANNER === */
+   --auth-banner-bg-start: var(--brand-primary-900);
+   --auth-banner-bg-end: var(--brand-primary-700);
+   --auth-banner-text: var(--gray-0);
+}
+
+/* =============================================================================
+   ESTILOS DE BOTONES - Clases CSS Globales
+   =============================================================================
+   Define las clases .btn y sus variantes utilizando los tokens CSS del sistema
+   de temas. Este archivo debe ser importado en el index.css del tema.
+
+   📅 Última actualización: Diciembre 2025
+   ============================================================================= */
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   BOTÓN BASE
+   ───────────────────────────────────────────────────────────────────────────── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  height: var(--control-height);
+  padding: 0 1rem;
+  font-size: 0.875rem;
+  font-weight: var(--font-weight-body);
+  line-height: 1.25;
+  border-radius: 0.5rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+  text-decoration: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+          user-select: none;
+  font-family: inherit;
+  box-sizing: border-box;
+  box-shadow: var(--shadow-md);
+}
+
+.btn:hover:not(:disabled):not([aria-disabled='true']) {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+  filter: brightness(1.1);
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: var(--shadow-focus-primary);
+}
+
+.btn:active:not(:disabled):not([aria-disabled='true']) {
+  transform: translateY(1px);
+  box-shadow: inset 0 2px 4px hsla(0, 0%, 0%, 0.25);
+  filter: brightness(0.96);
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   VARIANTES DE COLOR
+   ───────────────────────────────────────────────────────────────────────────── */
+
+/* Primary */
+.btn-primary {
+  background-color: var(--button-primary-bg);
+  color: var(--button-primary-text);
+  border-color: var(--button-primary-bg);
+}
+
+.btn-primary:hover:not(:disabled):not([aria-disabled='true']) {
+  background-color: var(--button-primary-bg-hover);
+  border-color: var(--button-primary-bg-hover);
+}
+
+.btn-primary:active:not(:disabled):not([aria-disabled='true']) {
+  background-color: var(--button-primary-bg-active);
+  border-color: var(--button-primary-bg-active);
+}
+
+/* Secondary */
+.btn-secondary {
+  background-color: var(--button-secondary-bg);
+  color: var(--button-secondary-text);
+  border-color: var(--button-secondary-bg);
+}
+
+.btn-secondary:hover:not(:disabled):not([aria-disabled='true']) {
+  background-color: var(--button-secondary-bg-hover);
+  border-color: var(--button-secondary-bg-hover);
+}
+
+/* Success */
+.btn-success {
+  background-color: var(--success-color);
+  color: var(--text-color-on-primary);
+  border-color: var(--success-color);
+}
+
+.btn-success:hover:not(:disabled):not([aria-disabled='true']) {
+  background-color: var(--success-color-hover);
+  border-color: var(--success-color-hover);
+}
+
+/* Warning */
+.btn-warning {
+  background-color: var(--warning-color);
+  color: var(--text-color-inverse);
+  border-color: var(--warning-color);
+}
+
+.btn-warning:hover:not(:disabled):not([aria-disabled='true']) {
+  background-color: var(--warning-color-hover);
+  border-color: var(--warning-color-hover);
+}
+
+/* Danger */
+.btn-danger {
+  background-color: var(--danger-color);
+  color: var(--text-color-on-primary);
+  border-color: var(--danger-color);
+}
+
+.btn-danger:hover:not(:disabled):not([aria-disabled='true']) {
+  background-color: var(--danger-color-hover);
+  border-color: var(--danger-color-hover);
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   APARIENCIA GRADIENT (.btn-gradient) PARA VARIANTES SÓLIDAS
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.btn-primary.btn-gradient {
+  background-image: linear-gradient(135deg, var(--button-primary-bg), var(--primary-color-hover));
+  border-color: var(--primary-color-dark);
+  box-shadow: var(--shadow-glow-primary);
+}
+
+.btn-primary.btn-gradient:hover:not(:disabled):not([aria-disabled='true']) {
+  background-image: linear-gradient(135deg, var(--button-primary-bg-hover), var(--primary-color-dark));
+  border-color: var(--primary-color-dark);
+  box-shadow: var(--shadow-glow-primary);
+}
+
+.btn-primary.btn-gradient:active:not(:disabled):not([aria-disabled='true']) {
+  background-image: none;
+}
+
+.btn-secondary.btn-gradient {
+  background-image: linear-gradient(135deg, var(--button-secondary-bg), var(--secondary-color-hover));
+  border-color: var(--secondary-color-dark);
+  box-shadow: var(
+    --shadow-glow-secondary,
+    0 4px 12px color-mix(in srgb, var(--secondary-color) 35%, transparent)
+  );
+}
+
+.btn-secondary.btn-gradient:hover:not(:disabled):not([aria-disabled='true']) {
+  background-image: linear-gradient(135deg, var(--button-secondary-bg-hover), var(--secondary-color-dark));
+  border-color: var(--secondary-color-dark);
+  box-shadow: var(
+    --shadow-glow-secondary,
+    0 4px 12px color-mix(in srgb, var(--secondary-color) 35%, transparent)
+  );
+}
+
+.btn-secondary.btn-gradient:active:not(:disabled):not([aria-disabled='true']) {
+  background-image: none;
+}
+
+.btn-success.btn-gradient {
+  background-image: linear-gradient(135deg, var(--success-color), var(--success-color-hover));
+  border-color: var(--success-color-dark);
+  box-shadow: var(--shadow-glow-success);
+}
+
+.btn-success.btn-gradient:hover:not(:disabled):not([aria-disabled='true']) {
+  background-image: linear-gradient(135deg, var(--success-color-hover), var(--success-color-dark));
+  border-color: var(--success-color-dark);
+  box-shadow: var(--shadow-glow-success);
+}
+
+.btn-success.btn-gradient:active:not(:disabled):not([aria-disabled='true']) {
+  background-image: none;
+}
+
+.btn-warning.btn-gradient {
+  background-image: linear-gradient(135deg, var(--warning-color), var(--warning-color-hover));
+  border-color: var(--warning-color-dark);
+  box-shadow: var(
+    --shadow-glow-warning,
+    0 4px 12px color-mix(in srgb, var(--warning-color) 35%, transparent)
+  );
+}
+
+.btn-warning.btn-gradient:hover:not(:disabled):not([aria-disabled='true']) {
+  background-image: linear-gradient(135deg, var(--warning-color-hover), var(--warning-color-dark));
+  border-color: var(--warning-color-dark);
+  box-shadow: var(
+    --shadow-glow-warning,
+    0 4px 12px color-mix(in srgb, var(--warning-color) 35%, transparent)
+  );
+}
+
+.btn-warning.btn-gradient:active:not(:disabled):not([aria-disabled='true']) {
+  background-image: none;
+}
+
+.btn-danger.btn-gradient {
+  background-image: linear-gradient(135deg, var(--danger-color), var(--danger-color-hover));
+  border-color: var(--danger-color-dark);
+  box-shadow: var(
+    --shadow-glow-danger,
+    0 4px 12px color-mix(in srgb, var(--danger-color) 35%, transparent)
+  );
+}
+
+.btn-danger.btn-gradient:hover:not(:disabled):not([aria-disabled='true']) {
+  background-image: linear-gradient(135deg, var(--danger-color-hover), var(--danger-color-dark));
+  border-color: var(--danger-color-dark);
+  box-shadow: var(
+    --shadow-glow-danger,
+    0 4px 12px color-mix(in srgb, var(--danger-color) 35%, transparent)
+  );
+}
+
+.btn-danger.btn-gradient:active:not(:disabled):not([aria-disabled='true']) {
+  background-image: none;
+}
+
+/* Soft / tonal */
+.btn-tone-neutral {
+  --button-tone-bg: var(--surface-section);
+  --button-tone-bg-hover: var(--surface-hover);
+  --button-tone-border: var(--border-color-strong);
+  --button-tone-text: var(--text-color);
+}
+
+.btn-tone-primary {
+  --button-tone-bg: var(--primary-color-light);
+  --button-tone-bg-hover: var(--primary-color-light);
+  --button-tone-border: var(--primary-color);
+  --button-tone-text: var(--primary-color-text);
+}
+
+.btn-tone-secondary {
+  --button-tone-bg: var(--secondary-color-lighter);
+  --button-tone-bg-hover: var(--secondary-color-light);
+  --button-tone-border: var(--secondary-color);
+  --button-tone-text: var(--secondary-color-text);
+}
+
+.btn-tone-success {
+  --button-tone-bg: var(--success-color-lighter);
+  --button-tone-bg-hover: var(--success-color-light);
+  --button-tone-border: var(--success-color);
+  --button-tone-text: var(--success-color-text);
+}
+
+.btn-tone-warning {
+  --button-tone-bg: var(--warning-color-lighter);
+  --button-tone-bg-hover: var(--warning-color-light);
+  --button-tone-border: var(--warning-color);
+  --button-tone-text: var(--warning-color-text);
+}
+
+.btn-tone-danger {
+  --button-tone-bg: var(--danger-color-lighter);
+  --button-tone-bg-hover: var(--danger-color-light);
+  --button-tone-border: var(--danger-color);
+  --button-tone-text: var(--danger-color-text);
+}
+
+.btn-tone-info {
+  --button-tone-bg: var(--info-color-lighter);
+  --button-tone-bg-hover: var(--info-color-light);
+  --button-tone-border: var(--info-color);
+  --button-tone-text: var(--info-color-text);
+}
+
+.btn-soft {
+  background-color: var(--button-tone-bg);
+  color: var(--button-tone-text);
+  border-color: var(--button-tone-border);
+}
+
+.btn-soft:hover:not(:disabled):not([aria-disabled='true']) {
+  background-color: var(--button-tone-bg-hover);
+  border-color: var(--button-tone-border);
+}
+
+/* Outline */
+.btn-outline {
+  background-color: var(--button-outline-bg);
+  color: var(--button-outline-text);
+  border-color: var(--button-outline-border);
+}
+
+.btn-outline:hover:not(:disabled):not([aria-disabled='true']) {
+  background-color: var(--button-outline-hover-bg);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-outline:not(.btn-tone-neutral) {
+  background-color: var(--button-tone-bg);
+  color: var(--button-tone-text);
+  border-color: var(--button-tone-border);
+}
+
+.btn-outline:not(.btn-tone-neutral):hover:not(:disabled):not([aria-disabled='true']) {
+  background-color: var(--button-tone-bg-hover);
+}
+
+/* Ghost */
+.btn-ghost {
+  background-color: transparent;
+  color: var(--button-ghost-text);
+  border-color: transparent;
+}
+
+.btn-ghost:hover:not(:disabled):not([aria-disabled='true']) {
+  background-color: var(--button-ghost-hover-bg);
+  box-shadow: var(--shadow-sm);
+}
+
+.btn-ghost:not(.btn-tone-neutral) {
+  color: var(--button-tone-text);
+}
+
+.btn-ghost:not(.btn-tone-neutral):hover:not(:disabled):not([aria-disabled='true']) {
+  background-color: var(--button-tone-bg);
+}
+
+/* Link */
+.btn-link {
+  background-color: transparent;
+  color: var(--primary-color);
+  border-color: transparent;
+  padding: 0;
+  height: auto;
+  line-height: inherit;
+  font-weight: var(--font-weight-body);
+}
+
+.btn-link:hover:not(:disabled):not([aria-disabled='true']) {
+  text-decoration: underline;
+  color: var(--primary-color-dark);
+}
+
+/*
+ * El bloque queda después de todas las variantes para que ninguna superficie
+ * saturada vuelva a imponerse por cascada. Loading usa aria-disabled para
+ * conservar el foco y recibe exactamente el mismo contrato visual.
+ */
+.btn:disabled,
+.btn[disabled],
+.btn[aria-disabled='true'] {
+  background-color: var(--button-disabled-bg);
+  background-image: none;
+  border-color: var(--button-disabled-border);
+  color: var(--button-disabled-text);
+  box-shadow: none;
+  cursor: not-allowed;
+  filter: none;
+  transform: none;
+}
+
+/* Loading conserva el foco; por tanto también conserva su indicador visible. */
+.btn[aria-disabled='true']:focus-visible {
+  box-shadow: var(--shadow-focus-primary);
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   TAMAÑOS
+   ───────────────────────────────────────────────────────────────────────────── */
+
+/* Small */
+.btn-sm {
+  height: var(--control-height-sm);
+  min-height: var(--control-height-sm);
+  padding: 0 0.875rem;
+  font-size: 0.75rem;
+  border-radius: 0.375rem;
+}
+
+/* Large */
+.btn-lg {
+  height: var(--control-height-lg);
+  min-height: var(--control-height-lg);
+  padding: 0 1.75rem;
+  font-size: 1rem;
+  border-radius: 0.625rem;
+}
+
+/* Full Width */
+.btn-block {
+  width: 100%;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   ICONOS
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.btn-icon {
+  padding: 0.625rem;
+}
+
+.btn-icon.btn-sm {
+  padding: 0.375rem;
+}
+
+.btn-icon.btn-lg {
+  padding: 0.875rem;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   GRUPO DE BOTONES
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.btn-group {
+  display: inline-flex;
+}
+
+.btn-group .btn {
+  border-radius: 0;
+}
+
+.btn-group .btn:first-child {
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.btn-group .btn:last-child {
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.btn-group .btn:not(:last-child) {
+  border-right-width: 0;
+}
+
+/* Transicion para iconos dentro de botones */
+.btn-icon i, .btn-icon svg,
+.icon-btn i, .icon-btn svg {
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Por defecto, los iconos NO rotan ni se animan en hover */
+.btn-icon:hover:not(:disabled):not([aria-disabled='true']) i,
+.btn-icon:hover:not(:disabled):not([aria-disabled='true']) svg,
+.icon-btn:hover:not(:disabled):not([aria-disabled='true']) i,
+.icon-btn:hover:not(:disabled):not([aria-disabled='true']) svg {
+  transform: none;
+}
+
+/* Animaciones configurables para botones de icono solitario (solo cuando se solicite explícitamente) */
+.btn-icon.btn-icon--rotate:hover:not(:disabled):not([aria-disabled='true']) i,
+.btn-icon.btn-icon--rotate:hover:not(:disabled):not([aria-disabled='true']) svg,
+.btn-icon.icon-anim-rotate:hover:not(:disabled):not([aria-disabled='true']) i,
+.btn-icon.icon-anim-rotate:hover:not(:disabled):not([aria-disabled='true']) svg,
+.icon-btn.btn-icon--rotate:hover:not(:disabled):not([aria-disabled='true']) i,
+.icon-btn.btn-icon--rotate:hover:not(:disabled):not([aria-disabled='true']) svg,
+.icon-btn.icon-anim-rotate:hover:not(:disabled):not([aria-disabled='true']) i,
+.icon-btn.icon-anim-rotate:hover:not(:disabled):not([aria-disabled='true']) svg {
+  transform: scale(1.1) rotate(180deg);
+}
+
+.btn-icon.btn-icon--grow:hover:not(:disabled):not([aria-disabled='true']) i,
+.btn-icon.btn-icon--grow:hover:not(:disabled):not([aria-disabled='true']) svg,
+.btn-icon.icon-anim-grow:hover:not(:disabled):not([aria-disabled='true']) i,
+.btn-icon.icon-anim-grow:hover:not(:disabled):not([aria-disabled='true']) svg,
+.icon-btn.btn-icon--grow:hover:not(:disabled):not([aria-disabled='true']) i,
+.icon-btn.btn-icon--grow:hover:not(:disabled):not([aria-disabled='true']) svg,
+.icon-btn.icon-anim-grow:hover:not(:disabled):not([aria-disabled='true']) i,
+.icon-btn.icon-anim-grow:hover:not(:disabled):not([aria-disabled='true']) svg {
+  transform: scale(1.15);
+}
+
+
+
+/* =============================================================================
+   ESTILOS DE FORMULARIOS - Clases CSS Globales
+   =============================================================================
+   Define las clases para inputs, selects y otros elementos de formulario
+   utilizando los tokens CSS del sistema de temas.
+
+   📅 Última actualización: Diciembre 2025
+   ============================================================================= */
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   INPUTS DE TEXTO Y SELECTS BASE
+   ───────────────────────────────────────────────────────────────────────────── */
+.form-input {
+  display: block;
+  width: 100%;
+  padding: 0 0.875rem;
+  /* Horizontal padding only */
+  font-size: 0.875rem;
+  /* 14px */
+  height: var(--control-height);
+  /* 40px */
+  line-height: calc(var(--control-height) - 2px);
+  /* Dynamic: Height - Borders */
+  color: var(--input-text);
+  background-color: var(--input-bg);
+  background-clip: padding-box;
+  border: 1px solid var(--input-border);
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  box-shadow: var(--shadow-sm);
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  appearance: none;
+}
+
+.form-textarea {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0.875rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--input-text);
+  background-color: var(--input-bg);
+  background-clip: padding-box;
+  border: 1px solid var(--input-border);
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  box-shadow: var(--shadow-sm);
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  appearance: none;
+}
+
+/* Hover state */
+.form-input:hover:not(:disabled):not(:focus),
+.form-select:hover:not(:disabled):not(:focus),
+.form-textarea:hover:not(:disabled):not(:focus) {
+  border-color: var(--input-border-hover);
+  box-shadow: var(--shadow-md);
+}
+
+/* Focus state */
+.form-input:focus,
+.form-select:focus,
+.form-textarea:focus {
+  border-color: var(--input-border-focus);
+  outline: 0;
+  box-shadow: var(--input-shadow-focus);
+}
+
+/* Disabled state */
+.form-input:disabled,
+.form-select:disabled,
+.form-textarea:disabled {
+  background-color: var(--input-disabled-bg);
+  color: var(--input-disabled-text);
+  cursor: not-allowed;
+}
+
+/* Placeholder */
+.form-input::placeholder,
+.form-textarea::placeholder {
+  color: var(--input-placeholder);
+  opacity: 1;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   CONTROLES NATIVOS DE CONTRASEÑA (Edge / WebView2)
+   ─────────────────────────────────────────────────────────────────────────────
+   Suprime el "ojo" (::-ms-reveal) y la "x" (::-ms-clear) nativos de Edge:
+   son controles custodiados por el design system — el toggle de visibilidad
+   lo provee floating-input y el nativo aparecería duplicado en WebView2.
+   ───────────────────────────────────────────────────────────────────────────── */
+input::-ms-reveal,
+input::-ms-clear {
+  display: none;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   SELECT EXTRAS
+   ───────────────────────────────────────────────────────────────────────────── */
+.form-select {
+  display: block;
+  width: 100%;
+  height: var(--control-height);
+  padding: 0.625rem 0.875rem;
+  /* ~10px top/bottom padding for 46px height */
+  padding-right: 2.5rem;
+  /* Space for arrow */
+  font-size: 0.875rem;
+  line-height: 1.5;
+  /* Reset line-height to normal */
+  color: var(--input-text);
+  background-color: var(--input-bg);
+  background-clip: padding-box;
+  border: 1px solid var(--input-border);
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  box-shadow: var(--shadow-sm);
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  appearance: none;
+
+  /* Arrow ID */
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 0.875rem center;
+  background-size: 16px 12px;
+}
+
+/* Dark mode semantic override for arrow icon (inverted color if needed) */
+/* Note: For simplicity, checking if we need a light arrow for dark mode.
+   Ideally, use an SVG with currentColor or a CSS variable for the URL if supported,
+   but data URI with separate definitions is safer for cross-browser. */
+[data-theme="dark"] .form-select,
+[data-theme="brand-dark"] .form-select,
+.theme-dark .form-select,
+html.dark .form-select {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23e5e7eb' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   TEXTAREA
+   ───────────────────────────────────────────────────────────────────────────── */
+.form-textarea {
+  min-height: calc(var(--control-height) * 2);
+  /* Al menos 2 filas aprox */
+  resize: vertical;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   CHECKBOX & RADIO
+   ───────────────────────────────────────────────────────────────────────────── */
+.form-checkbox,
+.form-radio {
+  width: 1.125rem;
+  height: 1.125rem;
+  padding: 0;
+  background-color: var(--input-bg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: 1px solid var(--input-border);
+  appearance: none;
+  -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+  vertical-align: text-bottom;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.form-checkbox:checked,
+.form-radio:checked {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.form-checkbox {
+  border-radius: 0.25em;
+}
+
+.form-radio {
+  border-radius: 50%;
+}
+
+.form-checkbox:checked {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
+}
+
+.form-radio:checked {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23fff'/%3e%3c/svg%3e");
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   LABELS & GROUPS
+   ───────────────────────────────────────────────────────────────────────────── */
+.form-label {
+  display: block;
+  margin-bottom: var(--field-label-gap);
+  font-size: var(--field-label-font-size);
+  font-weight: var(--field-label-font-weight);
+  line-height: var(--field-label-line-height);
+  color: var(--field-label-color);
+}
+
+.form-group {
+  margin-bottom: 1.5rem; /* 24px vertical gap */
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--form-row-gap, 2.25rem); /* 36px horizontal gap */
+  margin-right: -5px;
+  margin-left: -5px;
+}
+
+.form-row>* {
+  flex: 1 0 0%;
+}
+/* ─────────────────────────────────────────────────────────────────────────────
+   FORM STACKS (24px STANDARD SEPARATION)
+   ─────────────────────────────────────────────────────────────────────────────
+   Estándar institucional: 24px (1.5rem) de separación vertical entre
+   campos de formulario, incluidos los modales de configuración de BD.
+   ───────────────────────────────────────────────────────────────────────────── */
+.atomic-form-stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5); /* 24px de separación vertical */
+  margin-bottom: var(--space-5);
+}
+
+/* Checkboxes y toggles dentro de un form-stack: separación adicional superior */
+.atomic-form-stack .form-check-group {
+  margin-top: var(--space-3); /* 12px extra antes de la zona de checks */
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4); /* 16px entre cada checkbox */
+}
+
+/* Contenedor estándar de formulario inyectado canónicamente */
+.formulario { display: flex; flex-direction: column; gap: var(--space-6, 24px); }
+
+/* Atomic-UI Utility Classes */
+
+/* Display & Flexbox */
+.d-flex { display: flex !important; }
+.d-grid { display: grid !important; }
+.flex-col { flex-direction: column !important; }
+.flex-row { flex-direction: row !important; }
+.flex-wrap { flex-wrap: wrap !important; }
+.flex-1 { flex: 1 !important; }
+
+/* Alignment */
+.justify-between { justify-content: space-between !important; }
+.justify-center { justify-content: center !important; }
+.justify-end { justify-content: flex-end !important; }
+.justify-start { justify-content: flex-start !important; }
+.items-center { align-items: center !important; }
+.items-start { align-items: flex-start !important; }
+.items-end { align-items: flex-end !important; }
+
+/* Typography */
+.text-center { text-align: center !important; }
+.text-left { text-align: left !important; }
+.text-right { text-align: right !important; }
+
+.font-bold { font-weight: var(--font-weight-title) !important; }
+.font-medium { font-weight: var(--font-weight-body) !important; }
+.font-normal { font-weight: var(--font-weight-body) !important; }
+
+.text-muted { color: var(--text-color-muted) !important; }
+.text-secondary { color: var(--text-color-secondary) !important; }
+.text-primary { color: var(--primary-color) !important; }
+.text-success { color: var(--success-color-text) !important; }
+.text-warning { color: var(--warning-color-text) !important; }
+.text-danger { color: var(--danger-color-text) !important; }
+.text-white { color: var(--gray-0) !important; }
+
+/* Font Sizes */
+.text-sm { font-size: var(--text-sm) !important; }
+.text-base { font-size: var(--text-md) !important; }
+.text-lg { font-size: var(--text-lg) !important; }
+.text-xl { font-size: var(--text-xl) !important; }
+.text-2xl { font-size: var(--text-2xl) !important; }
+.text-3xl { font-size: var(--text-3xl) !important; }
+.text-4xl { font-size: var(--text-4xl) !important; }
+
+/* Margins (Bottom mainly used) */
+.mb-0 { margin-bottom: 0 !important; }
+.mb-1 { margin-bottom: var(--space-1) !important; }
+.mb-2 { margin-bottom: var(--space-2) !important; }
+.mb-3 { margin-bottom: var(--space-3) !important; }
+.mb-4 { margin-bottom: var(--space-4) !important; }
+.mb-5 { margin-bottom: var(--space-5) !important; }
+.mb-6 { margin-bottom: var(--space-6) !important; }
+.mb-7 { margin-bottom: var(--space-7) !important; }
+.mb-8 { margin-bottom: var(--space-8) !important; }
+
+.mt-0 { margin-top: 0 !important; }
+.mt-1 { margin-top: var(--space-1) !important; }
+.mt-2 { margin-top: var(--space-2) !important; }
+.mt-3 { margin-top: var(--space-3) !important; }
+.mt-4 { margin-top: var(--space-4) !important; }
+
+.mr-1 { margin-right: var(--space-1) !important; }
+.mr-2 { margin-right: var(--space-2) !important; }
+.mr-3 { margin-right: var(--space-3) !important; }
+.mr-4 { margin-right: var(--space-4) !important; }
+
+/* Padding */
+.p-0 { padding: 0 !important; }
+.p-2 { padding: var(--space-2) !important; }
+.p-3 { padding: var(--space-3) !important; }
+.p-4 { padding: var(--space-4) !important; }
+.p-6 { padding: var(--space-6) !important; }
+.p-8 { padding: var(--space-8) !important; }
+
+/* Gap */
+.gap-1 { gap: var(--space-1) !important; }
+.gap-2 { gap: var(--space-2) !important; }
+.gap-3 { gap: var(--space-3) !important; }
+.gap-4 { gap: var(--space-4) !important; }
+.gap-5 { gap: var(--space-5) !important; }
+.gap-6 { gap: var(--space-6) !important; }
+.gap-7 { gap: var(--space-7) !important; }
+
+/* Width/Height Utilities */
+.w-full { width: 100% !important; }
+.h-full { height: 100% !important; }
+.h-screen { height: 100dvh !important; }
+.min-w-0 { min-width: 0 !important; }
+
+/* Display Block */
+.d-block { display: block !important; }
+/* Grid */
+.grid-cols-220 {
+  grid-template-columns: repeat(auto-fit, minmax(13.75rem, 1fr)) !important;
+  --select2-min-width: 0;
+  --fi-min-width: 0;
+}
+.grid-cols-180 {
+  grid-template-columns: repeat(auto-fit, minmax(11.25rem, 1fr)) !important;
+  --select2-min-width: 0;
+  --fi-min-width: 0;
+}
+.grid-cols-350 { grid-template-columns: repeat(auto-fit, minmax(21.875rem, 1fr)) !important; }
+.chart-grid-compact { grid-auto-rows: 26.875rem !important; }
+
+@media (max-width: 56.25rem) {
+  .chart-grid-compact { grid-auto-rows: auto !important; }
+}
+
+/* Heights */
+.h-300 { height: 18.75rem !important; }
+.h-380 { height: 23.75rem !important; }
+.h-29 { height: 1.8125rem !important; }
+
+/* Chart Layout */
+.chart-panel {
+  display: flex !important;
+  flex-direction: column !important;
+  box-sizing: border-box !important;
+  min-height: 0 !important;
+}
+
+.chart-panel--fill {
+  height: 20rem !important;
+}
+
+.chart-panel--center {
+  height: 16.25rem !important;
+  justify-content: center !important;
+}
+
+/* Chart Colors */
+.text-chart-1 { color: var(--chart-color-1) !important; }
+.text-chart-2 { color: var(--chart-color-2) !important; }
+.text-chart-3 { color: var(--chart-color-3) !important; }
+.text-chart-4 { color: var(--chart-color-4) !important; }
+.text-chart-5 { color: var(--chart-color-5) !important; }
+
+/* Margins */
+.m-0 { margin: 0 !important; }
+.my-2 { margin-top: var(--space-2) !important; margin-bottom: var(--space-2) !important; }
+.mx-4 { margin-left: var(--space-4) !important; margin-right: var(--space-4) !important; }
+
+/* Cursors & Transitions */
+.cursor-help { cursor: help !important; }
+.cursor-pointer { cursor: pointer !important; }
+.transition-colors { transition: color 0.3s !important; }
+.transition-all { transition: all 0.2s !important; }
+
+/* Tonal surfaces keep semantic context without competing with primary actions. */
+.surface-tone {
+  --surface-tone-color: var(--primary-color);
+  --surface-tone-bg: var(--primary-color-light);
+  background: linear-gradient(145deg, var(--surface-tone-bg), var(--surface-background) 58%) !important;
+}
+
+.surface-tone--success {
+  --surface-tone-color: var(--success-color);
+  --surface-tone-bg: var(--success-color-lighter);
+}
+
+.surface-tone--warning {
+  --surface-tone-color: var(--warning-color);
+  --surface-tone-bg: var(--warning-color-lighter);
+}
+
+.surface-tone--info {
+  --surface-tone-color: var(--info-color);
+  --surface-tone-bg: var(--info-color-lighter);
+}
+
+.surface-tone__accent { color: var(--surface-tone-color) !important; }
+.mt-auto { margin-top: auto !important; }
+
+/* =============================================================================
+   SISTEMA DE TEMAS - ARCHIVO PRINCIPAL
+   =============================================================================
+
+   🚀 GUÍA RÁPIDA DE PERSONALIZACIÓN PARA NUEVOS PROYECTOS:
+   ──────────────────────────────────────────────────────────────────────────────
+
+   1. Copia esta carpeta "themes" a tu nuevo proyecto
+   2. Abre `_tokens-brand.css`
+   3. Cambia los colores de --brand-primary-* y --brand-secondary-*
+   4. ¡Listo! El sistema se adapta automáticamente
+
+   📖 ESTRUCTURA DE ARCHIVOS:
+   ├── _tokens-primitives.css  → Colores base universales (NO modificar)
+   ├── _tokens-brand.css       → Colores de marca (✏️ MODIFICAR POR PROYECTO)
+   ├── _tokens-semantic.css    → Variables semánticas light/dark (NO modificar)
+   ├── _tokens-components.css  → Tokens de componentes UI (Personalizar si necesitas)
+   └── index.css               → Este archivo (punto de entrada)
+
+   💡 TIPS:
+   - Usa https://uicolors.app para generar escalas de color
+   - El tema se activa con data-theme="light|dark" en el <html>
+   - También soporta la clase .dark para compatibilidad con Tailwind
+
+   📅 Última actualización: Diciembre 2025
+   ============================================================================= */
+
+/* === IMPORTACIONES EN ORDEN === */
+
+/* =============================================================================
+   ESTILOS BASE GLOBALES
+   ============================================================================= */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family-base);
+  background-color: var(--surface-ground);
+  color: var(--text-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family-heading);
+}
+
+code,
+pre,
+kbd,
+samp {
+  font-family: var(--font-family-mono);
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+}
+
+/* =============================================================================
+   TRANSICIÓN DE TEMA — SISTEMA DUAL
+   ─────────────────────────────────────────────────────────────────────────────
+   1. View Transitions API (Chrome/Edge/Safari ≥ 2024):
+      Zoom — el nuevo tema se expande desde el centro de la pantalla.
+   2. Fallback CSS (Firefox + resto):
+      Transición rápida solo en superficies estructurales (no en *todo* el DOM).
+   ============================================================================= */
+
+/* ── 1. View Transitions API ────────────────────────────────────────────── */
+
+/* El tema antiguo se desvanece y encoge ligeramente */
+::view-transition-old(root) {
+  animation: 350ms cubic-bezier(0.4, 0, 0.2, 1) both theme-zoom-out;
+  z-index: 1;
+}
+
+/* El nuevo tema entra expandiéndose desde el centro */
+::view-transition-new(root) {
+  z-index: 2;
+  animation: 400ms cubic-bezier(0.34, 1.56, 0.64, 1) both theme-zoom-in;
+}
+
+@keyframes theme-zoom-out {
+  from { opacity: 1; transform: scale(1); }
+  to   { opacity: 0; transform: scale(1.05); }
+}
+
+@keyframes theme-zoom-in {
+  from { opacity: 0; transform: scale(0.92); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+/* Movimiento reducido → cross-fade simple (accesibilidad) */
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation-duration: 150ms;
+    animation-name: theme-fade;
+  }
+
+  @keyframes theme-fade {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+}
+
+/* ── 2. Fallback CSS (navegadores sin VT API) ────────────────────────────── */
+/* Solo superficies estructurales — evita transicionar cada nodo del DOM */
+html.theme-transitioning,
+html.theme-transitioning body,
+html.theme-transitioning header,
+html.theme-transitioning nav,
+html.theme-transitioning main,
+html.theme-transitioning aside,
+html.theme-transitioning footer,
+html.theme-transitioning [class*="card"],
+html.theme-transitioning [class*="panel"],
+html.theme-transitioning [class*="surface"],
+html.theme-transitioning [class*="sidebar"],
+html.theme-transitioning [class*="topbar"] {
+  transition:
+    background-color 200ms ease-out,
+    border-color 200ms ease-out,
+    color 200ms ease-out !important;
+}
+
+/* Aplicar colores base al body.
+   SIN !important A PROPÓSITO: este archivo es la base del sistema de temas y
+   debe poder ser afinado por la hoja global de cada consumidor (por ejemplo,
+   body → var(--surface-section) como pinta la referencia). Un !important aquí
+   convertía la base en un candado que ninguna capa posterior podía gobernar. */
+html,
+body {
+  background-color: var(--surface-ground);
+  color: var(--text-color);
+}
+
+html {
+  /* Breakpoints del sistema de diseño:
+     Mobile:  < 640px
+     Tablet:  640px – 1024px
+     Desktop: > 1024px
+  */
+}
+
+/* Evita que el contenido siga reduciéndose por debajo del ancho mínimo móvil.
+   A < 320px el navegador mostrará scroll horizontal en lugar de comprimir todo. */
+body {
+  min-width: 320px;
+}
+
+/* =============================================================================
+   WCAG 2.1 AA — FOCO VISIBLE
+   Garantiza un indicador de foco consistente para navegación por teclado.
+   :focus-visible solo se activa con teclado, no con clic (UX limpio).
+   ============================================================================= */
+:focus-visible {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm, 2px);
+}
+
+/* Elimina el outline del navegador en clics, manteniéndolo solo para teclado */
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* =============================================================================
+   ACCESIBILIDAD — PREFERS-REDUCED-MOTION
+   Respeta la preferencia del sistema operativo: usuarios con vestibular
+   disorders, epilepsia u otras condiciones solicitan menos movimiento.
+   ============================================================================= */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* =============================================================================
+   SCROLLBAR PERSONALIZADA
+   ============================================================================= */
+
+/* Webkit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover);
+}
+
+::-webkit-scrollbar-corner {
+  background: var(--scrollbar-track);
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+}
+
+/* =============================================================================
+   ACCESIBILIDAD - FOCUS VISIBLE
+   ============================================================================= */
+
+/* Focus visible para accesibilidad (solo con teclado) */
+:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+}
+
+/* Remover outline por defecto */
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* Link focus */
+a:focus-visible {
+  outline: 2px solid var(--focus-ring-color);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* =============================================================================
+   SELECCIÓN DE TEXTO
+   ============================================================================= */
+
+::selection {
+  background-color: var(--primary-color);
+  color: var(--text-color-on-primary);
+}
+
+::-moz-selection {
+  background-color: var(--primary-color);
+  color: var(--text-color-on-primary);
+}
+
+/* =============================================================================
+   UTILIDADES DE TEMA
+   ============================================================================= */
+
+/* Forzar tema claro en un elemento específico */
+.force-light {
+  color-scheme: light;
+}
+
+.force-light,
+.force-light * {
+  --surface-ground: var(--gray-100) !important;
+  --surface-background: var(--gray-0) !important;
+  --text-color: var(--gray-900) !important;
+}
+
+/* Forzar tema oscuro en un elemento específico */
+.force-dark {
+  color-scheme: dark;
+}
+
+.force-dark,
+.force-dark * {
+  --surface-ground: #0a0a0a !important;
+  --surface-background: #141414 !important;
+  --text-color: var(--gray-100) !important;
+}
+
+/* =============================================================================
+   CLASES DE UTILIDAD PARA COLORES
+   ============================================================================= */
+
+/* Colores de texto */
+.text-primary {
+  color: var(--text-color) !important;
+}
+
+.text-secondary {
+  color: var(--text-color-secondary) !important;
+}
+
+.text-muted {
+  color: var(--text-color-muted) !important;
+}
+
+.text-brand {
+  color: var(--primary-color) !important;
+}
+
+.text-brand-secondary {
+  color: var(--secondary-color) !important;
+}
+
+.text-success {
+  color: var(--success-color-text) !important;
+}
+
+.text-warning {
+  color: var(--warning-color-text) !important;
+}
+
+.text-danger {
+  color: var(--danger-color-text) !important;
+}
+
+.text-info {
+  color: var(--info-color-text) !important;
+}
+
+/* Colores de fondo */
+.bg-ground {
+  background-color: var(--surface-ground) !important;
+}
+
+.bg-surface {
+  background-color: var(--surface-background) !important;
+}
+
+.bg-section {
+  background-color: var(--surface-section) !important;
+}
+
+.bg-elevated {
+  background-color: var(--surface-elevated) !important;
+}
+
+.bg-brand {
+  background-color: var(--primary-color) !important;
+}
+
+.bg-brand-light {
+  background-color: var(--primary-color-lighter) !important;
+}
+
+.bg-brand-secondary {
+  background-color: var(--secondary-color) !important;
+}
+
+.bg-success {
+  background-color: var(--success-color-lighter) !important;
+}
+
+.bg-warning {
+  background-color: var(--warning-color-lighter) !important;
+}
+
+.bg-danger {
+  background-color: var(--danger-color-lighter) !important;
+}
+
+.bg-info {
+  background-color: var(--info-color-lighter) !important;
+}
+
+/* Colores de borde */
+.border-default {
+  border-color: var(--border-color) !important;
+}
+
+.border-light {
+  border-color: var(--border-color-light) !important;
+}
+
+.border-strong {
+  border-color: var(--border-color-strong) !important;
+}
+
+.border-brand {
+  border-color: var(--primary-color) !important;
+}
+
+.border-success {
+  border-color: var(--success-color) !important;
+}
+
+.border-warning {
+  border-color: var(--warning-color) !important;
+}
+
+.border-danger {
+  border-color: var(--danger-color) !important;
+}
+
+.border-info {
+  border-color: var(--info-color) !important;
+}
+
+/**
+ * TABLE DESIGN TOKENS
+ * Single Source of Truth para todos los estilos de tabla
+ *
+ * Usado por:
+ * - responsive-table.css (CSS global para HTML nativo)
+ * - Atomic Table Components (app-table, app-table-row, etc.)
+ * - ScrollOverlayComponent
+ */
+
+/* ============================================
+   LIGHT MODE TOKENS (Default)
+   ============================================ */
+:where(:root) {
+  /* === Colores Base (referencia tokens semánticos) === */
+  --table-color-primary: var(--primary-color);
+  --table-color-border: var(--border-color);
+  --table-color-border-light: var(--border-color-light, var(--border-color));
+  --table-color-background: var(--surface-background);
+  --table-color-text: var(--text-color);
+  --table-color-text-secondary: var(--text-color-secondary);
+  --table-color-stripe: var(--hover-background-subtle);
+  --table-color-hover: var(--hover-background);
+
+  /* === Header === */
+  --table-header-bg: var(--surface-background);
+  --table-header-color: var(--text-color-secondary);
+  --table-header-border-width: var(--space-1);
+  --table-header-border-style: solid;
+  --table-header-border-color: var(--primary-color);
+  --table-header-radius: var(--radius-md);
+  --table-header-shadow: var(--shadow-xs, 0 1px var(--space-1) var(--shadow-color, rgba(0, 0, 0, 0.05)));
+
+  /* === Celdas === */
+  --table-cell-padding: var(--space-3) var(--space-4);
+  --table-border-radius: var(--radius-md);
+
+  /* === Cards (Móvil) === */
+  --table-card-padding: var(--space-4);
+  --table-card-gap: var(--space-4);
+  --table-card-shadow: var(--shadow-md);
+  --table-card-shadow-hover: var(--shadow-lg);
+
+  /* === Tipografía === */
+  --table-font-family: inherit;
+  --table-font-size: var(--text-sm);
+  --table-font-size-mobile: var(--text-sm);
+  --table-font-size-header: var(--text-xs);
+  --table-font-weight-header: 600;
+  --table-font-weight-label: 600;
+
+  /* === Efectos === */
+  --table-transition-duration: 0.2s;
+  --table-transition-timing: ease;
+  --table-row-hover-shadow: 0 var(--space-1) var(--space-3) rgba(0, 0, 0, 0.08), 0 var(--space-1) var(--space-1) rgba(0, 0, 0, 0.04);
+  --table-row-hover-transform: translateY(calc(-1 * var(--space-1)));
+
+  /* === Sombras === */
+  --table-shadow-row: var(--shadow-xs, 0 1px var(--space-1) var(--shadow-color, rgba(0, 0, 0, 0.05)));
+
+  /* === Breakpoint === */
+  --table-breakpoint: 768px;
+}
+/* ============================================
+   DARK MODE TOKENS
+   ============================================ */
+:where(html.dark:not([data-theme="brand-dark"]), [data-theme="dark"]) {
+  /* Colores */
+  --table-color-primary: var(--primary-color-light);
+  --table-color-background: var(--surface-section);
+  --table-color-stripe: rgba(255, 255, 255, 0.06);
+  --table-color-hover: var(--hover-background);
+
+  /* Header - Fondo primario, sin borde */
+  --table-header-bg: var(--brand-primary-700, var(--primary-color-darker));
+  --table-header-color: var(--gray-0);
+  --table-header-border-width: 0;
+  --table-header-border-color: transparent;
+  --table-header-shadow: none;
+
+  /* Sombras Dark Mode */
+  --table-shadow-row: var(--shadow-sm);
+  --table-card-shadow: var(--shadow-lg);
+  --table-card-shadow-hover: var(--shadow-xl);
+
+  /* Efecto Hover Elevado (Dark) */
+  --table-row-hover-shadow: 0 var(--space-1) var(--space-4) rgba(0, 0, 0, 0.3), 0 var(--space-1) var(--space-2) rgba(0, 0, 0, 0.2);
+}
+
+/* ============================================
+   LEGACY ALIAS (Compatibilidad con --rtc-*)
+   Mapea tokens antiguos a nuevos
+   ============================================ */
+:root {
+  /* Alias para mantener compatibilidad con responsive-table.css */
+  --rtc-color-primary: var(--table-color-primary);
+  --rtc-color-border: var(--table-color-border);
+  --rtc-color-border-light: var(--table-color-border-light);
+  --rtc-color-background: var(--table-color-background);
+  --rtc-color-text: var(--table-color-text);
+  --rtc-color-label: var(--table-color-text-secondary);
+  --rtc-color-stripe: var(--table-color-stripe);
+  --rtc-color-row-hover: var(--table-color-hover);
+
+  --rtc-header-bg: var(--table-header-bg);
+  --rtc-header-color: var(--table-header-color);
+  --rtc-header-border-width: var(--table-header-border-width);
+  --rtc-header-border-style: var(--table-header-border-style);
+  --rtc-header-border-color: var(--table-header-border-color);
+  --rtc-header-radius: var(--table-header-radius);
+  --rtc-header-shadow: var(--table-header-shadow);
+
+  --rtc-cell-padding: var(--table-cell-padding);
+  --rtc-border-radius: var(--table-border-radius);
+  --rtc-card-padding: var(--table-card-padding);
+  --rtc-card-gap: var(--table-card-gap);
+  --rtc-shadow-card: var(--table-card-shadow);
+  --rtc-shadow-hover: var(--table-card-shadow-hover);
+
+  --rtc-font-family: var(--table-font-family);
+  --rtc-font-size-base: var(--table-font-size);
+  --rtc-font-size-mobile: var(--table-font-size-mobile);
+  --rtc-font-size-header: var(--table-font-size-header);
+  --rtc-font-weight-header: var(--table-font-weight-header);
+  --rtc-font-weight-label: var(--table-font-weight-label);
+
+  --rtc-transition-duration: var(--table-transition-duration);
+  --rtc-transition-timing: var(--table-transition-timing);
+  --rtc-row-hover-shadow: var(--table-row-hover-shadow);
+  --rtc-row-hover-transform: var(--table-row-hover-transform);
+  --rtc-shadow-row: var(--table-shadow-row);
+}
+
+
+/**
+ * DESCRIPCIÓN:
+ * Componente CSS portable que transforma tablas HTML en tarjetas (cards)
+ * responsivas cuando el viewport es menor al breakpoint definido.
+ * 
+ * TOKENS:
+ * Los tokens --rtc-* son alias de --table-* definidos en:
+ * tokens/table-tokens.css (Single Source of Truth)
+ */
+
+/* ============================================
+   TOKENS: Importados desde archivo centralizado
+   ============================================ */
+.rtc-table {
+    --rtc-color-border: var(--table-color-border);
+    --rtc-color-border-light: var(--table-color-border-light);
+    --rtc-color-background: var(--table-color-background);
+    --rtc-color-text: var(--table-color-text);
+    --rtc-color-label: var(--table-color-text-secondary);
+    --rtc-color-stripe: var(--table-color-stripe);
+    --rtc-color-row-hover: var(--table-color-hover);
+
+    --rtc-header-bg: var(--table-header-bg);
+    --rtc-header-color: var(--table-header-color);
+    --rtc-header-border-width: var(--table-header-border-width);
+    --rtc-header-border-style: var(--table-header-border-style);
+    --rtc-header-border-color: var(--table-header-border-color);
+    --rtc-header-radius: var(--table-header-radius);
+    --rtc-header-shadow: var(--table-header-shadow);
+
+    --rtc-cell-padding: var(--table-cell-padding);
+    --rtc-border-radius: var(--table-border-radius);
+    --rtc-card-padding: var(--table-card-padding);
+    --rtc-card-gap: var(--table-card-gap);
+    --rtc-shadow-card: var(--table-card-shadow);
+    --rtc-shadow-hover: var(--table-card-shadow-hover);
+
+    --rtc-font-family: var(--table-font-family);
+    --rtc-font-size-base: var(--table-font-size);
+    --rtc-font-size-mobile: var(--table-font-size-mobile);
+    --rtc-font-size-header: var(--table-font-size-header);
+    --rtc-font-weight-header: var(--table-font-weight-header);
+    --rtc-font-weight-label: var(--table-font-weight-label);
+
+    --rtc-transition-duration: var(--table-transition-duration);
+    --rtc-transition-timing: var(--table-transition-timing);
+    --rtc-row-hover-shadow: var(--table-row-hover-shadow);
+    --rtc-row-hover-transform: var(--table-row-hover-transform);
+    --rtc-shadow-row: var(--table-shadow-row);
+}
+
+/* ============================================
+   BASE STYLES (Desktop)
+   ============================================ */
+.rtc-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-family: var(--rtc-font-family);
+    font-size: var(--rtc-font-size-base);
+    color: var(--rtc-color-text);
+    z-index: 10;
+}
+
+/* === Header === */
+.rtc-header {
+    display: table-header-group;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+
+.rtc-header th {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    padding: var(--rtc-cell-padding);
+    color: var(--rtc-header-color);
+    font-size: var(--rtc-font-size-header);
+    font-weight: var(--rtc-font-weight-header);
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    background: var(--rtc-header-bg);
+    border-top: var(--rtc-header-border-width, var(--space-1)) var(--rtc-header-border-style, solid) var(--rtc-header-border-color, var(--rtc-color-border));
+    border-bottom: var(--rtc-header-border-width, var(--space-1)) var(--rtc-header-border-style, solid) var(--rtc-header-border-color, var(--rtc-color-border));
+}
+
+.rtc-header th:first-child {
+    border-left: var(--rtc-header-border-width, var(--space-1)) var(--rtc-header-border-style, solid) var(--rtc-header-border-color, var(--rtc-color-border));
+    border-top-left-radius: var(--rtc-header-radius);
+    border-bottom-left-radius: var(--rtc-header-radius);
+}
+
+.rtc-header th:last-child {
+    border-right: var(--rtc-header-border-width, var(--space-1)) var(--rtc-header-border-style, solid) var(--rtc-header-border-color, var(--rtc-color-border));
+    border-top-right-radius: var(--rtc-header-radius);
+    border-bottom-right-radius: var(--rtc-header-radius);
+}
+
+/* === Body === */
+.rtc-body {
+    display: table-row-group;
+}
+
+/* === Rows === */
+.rtc-row {
+    position: relative;
+    background-color: var(--rtc-color-background);
+    transition:
+        background-color var(--rtc-transition-duration) var(--rtc-transition-timing),
+        box-shadow var(--rtc-transition-duration) var(--rtc-transition-timing),
+        transform var(--rtc-transition-duration) var(--rtc-transition-timing);
+    border-bottom: 1px solid var(--rtc-color-border-light);
+}
+
+/* Zebra stripes - Filas alternadas */
+.rtc-body .rtc-row:nth-child(odd) {
+    background-color: var(--rtc-color-stripe);
+}
+
+/* Hover effect - Elevación */
+.rtc-row:hover {
+    background-color: var(--rtc-color-row-hover);
+    box-shadow: var(--rtc-row-hover-shadow);
+    transform: var(--rtc-row-hover-transform);
+    z-index: 1;
+}
+
+/* === Cells === */
+.rtc-table td {
+    padding: var(--rtc-cell-padding);
+    vertical-align: middle;
+}
+
+.rtc-table td:last-child, .rtc-table th:last-child {
+    padding-right: var(--space-6);
+}
+
+.rtc-table td.text-right, .rtc-table th.text-right, .rtc-table td.rtc-text-right, .rtc-table th.rtc-text-right { text-align: right; }
+.rtc-table td.text-center, .rtc-table th.text-center, .rtc-table td.rtc-text-center, .rtc-table th.rtc-text-center { text-align: center; }
+
+/* Ocultar etiquetas de datos en desktop */
+.rtc-table td[data-label]::before,
+.rtc-table td[data-title]::before {
+    display: none;
+}
+
+/* ============================================
+   RESPONSIVE STYLES (Mobile - CARDS)
+   Alta especificidad para evitar !important
+   ============================================ */
+@media screen and (max-width: 48rem) {
+
+    /* Hide header on mobile */
+    .so-root[data-so-table][data-so-sync-columns] .rtc-header,
+    .so-root[data-so-table] .rtc-header,
+    table.rtc-table .rtc-header,
+    table.rtc-table .rtc-header th {
+        display: none;
+    }
+
+    /* Body as block container */
+    .so-root[data-so-table] .rtc-body,
+    table.rtc-table .rtc-body {
+        display: block;
+        width: 100%;
+    }
+
+    /* Row becomes a card - Compact Sizing */
+    .so-root[data-so-table][data-so-sync-columns] .rtc-row,
+    .so-root[data-so-table] .rtc-row,
+    table.rtc-table .rtc-row {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        border: 1px solid var(--rtc-color-border);
+        border-radius: var(--rtc-border-radius);
+        padding: var(--space-4);
+        margin-bottom: var(--space-3);
+        box-shadow: var(--rtc-shadow-card);
+        min-height: 12.5rem;
+    }
+
+    .so-root[data-so-table][data-so-sync-columns] .rtc-row:hover,
+    .so-root[data-so-table] .rtc-row:hover,
+    table.rtc-table .rtc-row:hover {
+        transform: none;
+        background-color: var(--rtc-color-background);
+        box-shadow: var(--rtc-shadow-card);
+        z-index: auto;
+    }
+
+    /* Cell Styles - Compact Layout */
+    .so-root[data-so-table] table.rtc-table td,
+    table.rtc-table td {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        border: none;
+        border-bottom: 1px solid var(--rtc-color-border-light);
+        border-radius: 0;
+        padding: var(--space-2) 0;
+        font-size: var(--rtc-font-size-mobile);
+        min-height: auto;
+    }
+
+    .so-root[data-so-table] table.rtc-table td:last-child,
+    table.rtc-table td:last-child {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+
+    /* Label Styles - Cleaner Look */
+    .so-root[data-so-table] table.rtc-table td[data-label]::before,
+    table.rtc-table td[data-label]::before {
+        content: attr(data-label);
+        display: block;
+        font-weight: var(--rtc-font-weight-label);
+        color: var(--table-color-primary);
+        font-size: var(--text-sm);
+        width: 40%;
+        max-width: 8.75rem;
+        text-align: left;
+        padding-right: var(--space-2);
+    }
+
+    /* Value Styles - Left Aligned */
+    .so-root[data-so-table] table.rtc-table td[data-label]>*,
+    .so-root[data-so-table] table.rtc-table td[data-label]::after,
+    table.rtc-table td[data-label]>*,
+    table.rtc-table td[data-label]::after {
+        flex: 1;
+        text-align: left;
+        word-break: break-word;
+    }
+
+    /* Legacy: data-title support */
+    .so-root[data-so-table] table.rtc-table td[data-title]:not([data-label])::before,
+    table.rtc-table td[data-title]:not([data-label])::before {
+        content: attr(data-title);
+        display: block;
+        font-weight: var(--rtc-font-weight-label);
+        color: var(--table-color-primary);
+        font-size: var(--text-sm);
+        width: 40%;
+        max-width: 8.75rem;
+        text-align: left;
+        padding-right: var(--space-2);
+    }
+
+    /* Acciones con label visible */
+    .so-root[data-so-table] table.rtc-table .rtc-actions,
+    table.rtc-table .rtc-actions {
+        flex-direction: row;
+        justify-content: flex-end;
+        padding-top: var(--space-3);
+        margin-top: var(--space-2);
+        border-top: 1px solid var(--rtc-color-border);
+        border-bottom: none;
+    }
+}
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+    .rtc-row {
+        transition: none;
+    }
+}
+
+/* Show only on mobile */
+.rtc-mobile-only {
+    display: none;
+}
+
+@media screen and (max-width: 48rem) {
+    .so-root[data-so-table] .rtc-mobile-only,
+    .rtc-mobile-only {
+        display: flex;
+    }
+}
+
+/* Show only on desktop */
+.rtc-desktop-only {
+    display: table-cell;
+}
+
+@media screen and (max-width: 48rem) {
+    .so-root[data-so-table] .rtc-desktop-only,
+    .rtc-desktop-only {
+        display: none;
+    }
+}
+
+/**
+ * UI Component Library - Shared Animations
+ */
+
+@keyframes ui-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes ui-fade-out {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+@keyframes ui-slide-in-right {
+  from { transform: translateX(100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes ui-slide-out-right {
+  from { transform: translateX(0); opacity: 1; }
+  to { transform: translateX(100%); opacity: 0; }
+}
+
+@keyframes ui-slide-up {
+  from { transform: translateY(var(--space-2)); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes ui-scale-in {
+  from { transform: scale(0.95); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+@keyframes ui-spin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes ui-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+@keyframes ui-shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+@keyframes ui-bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-25%); }
+}
+
+:where(app-button, app-icon-button).tooltip-host:not(.atomic-button--full-width) {
+  width: fit-content;
+}
+
+.tooltip {
+  position: fixed;
+  background-color: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  border: var(--border-width-thin) solid var(--tooltip-border);
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-md);
+  font-size: var(--text-sm);
+  font-weight: var(--font-weight-emphasis);
+  line-height: 1.4;
+  box-shadow: var(--tooltip-shadow);
+  z-index: 9999;
+  pointer-events: none;
+  max-width: 15.625rem;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  text-align: left;
+  animation: ui-fade-in 0.2s ease forwards;
+}
+
+.tooltip::after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+}
+
+.tooltip--top::after {
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 0.3125rem 0.3125rem 0;
+  border-color: var(--tooltip-bg) transparent transparent transparent;
+}
+
+.tooltip--bottom::after {
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 0 0.3125rem 0.3125rem;
+  border-color: transparent transparent var(--tooltip-bg) transparent;
+}
+
+.tooltip--left::after {
+  left: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  border-width: 0.3125rem 0 0.3125rem 0.3125rem;
+  border-color: transparent transparent transparent var(--tooltip-bg);
+}
+
+.tooltip--right::after {
+  right: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  border-width: 0.3125rem 0.3125rem 0.3125rem 0;
+  border-color: transparent var(--tooltip-bg) transparent transparent;
+}
+
+/* =============================================================================
+   ESTILOS GLOBALES - Atomic UI
+   =============================================================================
+   📅 Actualizado: Diciembre 2025
+   🎨 Sistema de temas portable implementado
+   ============================================================================= */
+
+/* =============================================================================
+   SISTEMA DE TEMAS PORTABLE
+   =============================================================================
+   Para personalizar los colores de marca para otro proyecto:
+   1. Abre: src/styles/themes/_tokens-brand.css
+   2. Modifica los valores de --brand-primary-* y --brand-secondary-*
+   3. ¡Listo! Todo se actualiza automáticamente
+   ============================================================================= */
+
+/* Iconografia (Local - FontAwesome) */
+
+/* Sistema de temas y tokens (incluye tipografía local Open Sans + Quicksand vía _fonts.css) */
+
+/* Tokens de Tabla (CRÍTICO para estilos de cabecera y hover) */
+
+/* Estilos para tabla responsiva (usado por TableComponent) */
+
+/* Animaciones compartidas de la UI */
+
+/* Directivas compartidas */
+
+/* =============================================================================
+   RESET CANONICO UNIVERSAL
+   ============================================================================= */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+app-icon-button.is-hanging-close {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  z-index: 100;
+  width: 2rem;
+  height: 2rem;
+}
+
+app-icon-button.is-hanging-close .icon-btn {
+  width: 100%;
+  height: 100%;
+  border-radius: var(--radius-full, 50%);
+  background-color: var(--surface-background);
+  border: 1px solid var(--border-color);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  color: var(--text-color);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+app-icon-button.is-hanging-close .icon-btn:hover {
+  background-color: var(--danger-color, #ef4444) !important;
+  border-color: var(--danger-color, #ef4444) !important;
+  color: white !important;
+  transform: scale(1.1) !important;
+}
+
+app-icon-button.is-hanging-close .icon-btn:hover svg,
+app-icon-button.is-hanging-close .icon-btn:hover i {
+  color: white !important;
+}
+
+app-icon-button.is-hanging-close .icon-btn:active {
+  transform: scale(0.95) !important;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) !important;
+}

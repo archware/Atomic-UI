@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Artifact Barracuda">
+  <defs>
+    <linearGradient id="barracuda-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E7490"/>
+      <stop offset="100%" stop-color="#083344"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="52" fill="url(#barracuda-bg)"/>
+  <circle cx="128" cy="128" r="98" fill="#FFFFFF" fill-opacity="0.06" stroke="#67E8F9" stroke-opacity="0.45" stroke-width="2.75"/>
+  <g transform="translate(128 128) scale(1.32)">
+    <g fill="none" stroke="#FFFFFF" stroke-width="4.80" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M -36 -16 L 0 -52 L 42 -10"/>
+      <path d="M -36 16 L 0 52 L 41 11"/>
+      <path d="M -20 -6.5 L -17 -15 L -9 -7.5"/>
+      <path d="M 1 -8.5 L 9 -18 L 19 -8.5"/>
+      <path d="M -20 6.5 L -17 14.5 L -9 7.5"/>
+      <path d="M 6 8.5 L 10 17.5 L 18 8.2"/>
+      <path d="M -35 -3.5 L -50 -18 C -45 -8 -44 -3 -44 0 C -44 3 -45 8 -50 18 L -35 3.5 C -20 7.5 4 9.2 24 8.2 C 35 7.6 44 5.5 51 2.2 L 39 0.2 L 50 -3.2 C 42 -6.8 32 -8.5 20 -8.8 C 2 -9.2 -19 -7.2 -35 -3.5 Z"/>
+      <path d="M 27 -5.2 C 24 -1.5 24 2.5 27 5.5"/>
+      <path d="M 10 1.2 L 20 1.2 L 16 4.8"/>
+    </g>
+    <circle cx="34.5" cy="-2.6" r="2.5" fill="#FFFFFF"/>
+  </g>
+</svg>

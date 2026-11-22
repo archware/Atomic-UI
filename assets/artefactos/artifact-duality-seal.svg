@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Dualidad Barracuda y Mangosta">
+  <defs>
+    <linearGradient id="duality-bg" x1="24" y1="20" x2="232" y2="236" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0E1A33"/>
+      <stop offset="100%" stop-color="#070E1E"/>
+    </linearGradient>
+    <linearGradient id="duality-cyan" x1="36" y1="48" x2="128" y2="208" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    <linearGradient id="duality-gold" x1="128" y1="48" x2="216" y2="208" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FCD34D"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+  </defs>
+  <rect x="12" y="12" width="232" height="232" rx="52" fill="url(#duality-bg)"/>
+  <rect x="14" y="14" width="228" height="228" rx="50" fill="none" stroke="#38BDF8" stroke-opacity="0.22" stroke-width="2"/>
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <!-- Ala y circuito izquierdo: Barracuda (Cian) -->
+    <polygon points="38,94 74,108 82,126 50,114" fill="#38BDF8"/>
+    <polygon points="44,118 76,128 84,142 54,134" fill="#0EA5E9"/>
+    <polygon points="54,142 80,148 86,158 64,154" fill="#0284C7"/>
+    <path d="M 124 44 L 66 78 L 66 178 L 124 212 L 124 198 L 78 171 L 78 85 L 124 58 Z" fill="url(#duality-cyan)"/>
+    <path d="M 124 68 C 103 78, 92 98, 102 117 C 110 132, 96 146, 86 128" fill="none" stroke="#38BDF8" stroke-width="4.5"/>
+    <path d="M 124 188 C 103 178, 92 158, 102 139 C 109 125, 118 110, 112 94" fill="none" stroke="#38BDF8" stroke-width="4.5"/>
+    <circle cx="101" cy="76" r="4.5" fill="#0E1A33" stroke="#38BDF8" stroke-width="3"/>
+    <circle cx="101" cy="180" r="4.5" fill="#0E1A33" stroke="#38BDF8" stroke-width="3"/>
+    <!-- Armadura hexagonal derecha: Mangosta (Oro) -->
+    <polygon points="132,44 192,78 178,86 132,60" fill="url(#duality-gold)"/>
+    <polygon points="196,83 196,134 182,130 182,91" fill="#F59E0B"/>
+    <polygon points="196,142 196,174 182,166 182,138" fill="#D97706"/>
+    <polygon points="192,180 132,212 132,196 178,171" fill="#B45309"/>
+    <path d="M 132 69 L 173 92 L 173 164 L 132 187 L 132 169 L 158 154 L 158 102 L 132 87 Z" fill="url(#duality-gold)"/>
+    <!-- Nucleo central cristalino (Atomic UI) -->
+    <polygon points="128,101 151,114 151,142 128,155 105,142 105,114" fill="#F8FAFC"/>
+    <path d="M 128 101 L 116 122 L 140 122 Z M 116 122 L 128 142 L 140 122 Z M 105 114 L 116 122 L 105 142 Z M 151 114 L 140 122 L 151 142 Z M 105 142 L 128 142 L 128 155 Z M 151 142 L 128 142 L 128 155 Z" fill="none" stroke="#0E1A33" stroke-width="2.8" stroke-linejoin="round"/>
+  </g>
+</svg>
